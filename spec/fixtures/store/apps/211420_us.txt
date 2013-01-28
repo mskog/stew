@@ -1,0 +1,1306 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Dark Souls&trade;: Prepare To Die&trade; Edition on Steam</title>
+  <link href="http://cdn.store.steampowered.com/public/css/styles_storev5.css?v=605909703" rel="stylesheet" type="text/css">
+<!--[if lte IE 6]> <link href="http://cdn.store.steampowered.com/public/css/styles_storev5_ie6.css?v=2526402532" rel="stylesheet" type="text/css">
+ <![endif]-->
+<!--[if lte IE 7]> <style type="text/css"> .iepopupfix{ display: block; } </style> <![endif]-->
+<link href="http://cdn.store.steampowered.com/public/css/styles_linux.css?v=4130945887" rel="stylesheet" type="text/css">
+  <link href="http://cdn.store.steampowered.com/public/css/styles_gamev5.css?v=3028087060" rel="stylesheet" type="text/css">
+  <link href="http://cdn.store.steampowered.com/public/css/styles_recommended.css?v=3669185169" rel="stylesheet" type="text/css">
+      <link href="http://cdn.store.steampowered.com/public/shared/css/apphub.css?v=3597625768" rel="stylesheet" type="text/css">
+    <link href="http://cdn.store.steampowered.com/public/shared/css/buttons.css?v=777997768" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/swfobject.js?v=3816786344&amp;l=english"></script>
+
+<script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/prototype-1.7.js?v=1879158345&amp;l=english"></script>
+
+<script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/scriptaculous/scriptaculous.js?v=2605761387&amp;l=english&amp;load=effects,controls,slider"></script>
+
+<script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/javascript.js?v=835551046&amp;l=english"></script>
+
+<script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/main.js?v=594385535&amp;l=english"></script>
+
+<script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/jserrorreport.js?v=2719817279&amp;l=english"></script>
+
+<script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/header.js?v=3755887123&amp;l=english"></script>
+
+<script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/search.js?v=3621829282&amp;l=english"></script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33786258-1']);
+  _gaq.push(['_setCustomVar', 1, 'Logged In', 'false', 2]);
+  _gaq.push(['_setCustomVar', 2, 'Client Type', 'External', 2]);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_setSessionCookieTimeout', 900000]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  <script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/modal.js?v=3995118001&amp;l=english"></script>
+  <script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/gamehighlightplayer.js?v=1164026444&amp;l=english"></script>
+  <script type="text/javascript" src="http://cdn.store.steampowered.com/public/javascript/comments.js?v=1692965998&amp;l=english"></script>
+  <link rel="image_src" href="http://cdn.steampowered.com/v/gfx/apps/211420/capsule_231x87.jpg?t=1355944286">
+  <meta name="description" content="New Content for PC Dark Souls™: Prepare to Die™ Edition will include an untold chapter in the world of Lordran. Sent back to the past, player will discover the story when Knight Artorias still lives. New Bosses – Including Black Dragon, Sanctuary Guardian, Artorias of the Abyss.">
+  <script language="JavaScript">
+  <!--
+  function screenshot_popup( url, width, height )
+  {
+    var append = '?';
+    if ( url.indexOf( '?' ) >= 0 )
+      append = '&';
+    if ( screen.width >= 1280 && screen.height >= 1024 )
+      popup( url+append+'size=1024', 1044, 803, 1, 1 );
+    else
+      popup( url+append+'size=800', 820, 635, 1, 1 );
+  }
+
+  Event.observe( window, 'load', function() {
+    if ( Prototype.Browser.IE )
+    {
+      //trick IE6 into putting some things in the correct spot
+      $$('.discount_block').invoke( 'hide' );
+      $$('.discount_block').invoke( 'show' ); 
+    }
+  } );
+  -->
+  </script>
+</head>
+
+<body>
+
+<div id="global_header">
+  <div class="content">
+  
+    <div class="logo">
+      <span id="logo_holder">
+        <a href="http://store.steampowered.com/">
+          <img src="http://cdn.store.steampowered.com/public/images/v5/globalheader_logo.png" width="176" height="44">
+        </a>
+      </span>
+      <!--[if lt IE 7]>
+      <style type="text/css">
+      #logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+      #logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://cdn.store.steampowered.com/public/images/v5/globalheader_logo.png'); }
+      </style>
+      <![endif]-->
+    </div>
+  
+    <a class="menuitem active" href="http://store.steampowered.com/">
+      <div class="activebg">&nbsp;</div>      STORE   </a> 
+    <a class="menuitem" href="http://steamcommunity.com/">
+      Community   </a>
+    <a class="menuitem " href="http://store.steampowered.com/news/?snr=1_5_9__10">
+            NEWS    </a>
+    <a class="menuitem " href="http://store.steampowered.com/about/?snr=1_5_9__10">
+            ABOUT   </a>
+    <a class="menuitem" href="http://support.steampowered.com/">
+      SUPPORT   </a>
+    <a class="menuitem " href="http://store.steampowered.com/stats/?snr=1_5_9__10">
+            STATS   </a>
+    
+    <div id="global_actions">
+            <div id="global_action_menu">
+                  <div class="header_installsteam_btn header_installsteam_btn_green">
+            <div class="header_installsteam_btn_leftcap"></div>
+            <div class="header_installsteam_btn_rightcap"></div>
+            <a class="header_installsteam_btn_content" href="http://store.steampowered.com/about/?snr=1_5_9__11">
+              Install Steam           </a>
+          </div>
+                          <a class="global_action_link" href="http://store.steampowered.com/login/?snr=1_5_9__11">login</a>
+          &nbsp;|&nbsp; 
+          <span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+          <div class="popup_block" id="language_dropdown" style="display: none;">
+            <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>            <div class="popup_body popup_menu shadow_content">
+                                              <a class="popup_menu_item tight" href="?l=bulgarian">Български (Bulgarian)</a>
+                                              <a class="popup_menu_item tight" href="?l=czech">čeština (Czech)</a>
+                                              <a class="popup_menu_item tight" href="?l=danish">Dansk (Danish)</a>
+                                              <a class="popup_menu_item tight" href="?l=dutch">Nederlands (Dutch)</a>
+                                                              <a class="popup_menu_item tight" href="?l=finnish">Suomi (Finnish)</a>
+                                              <a class="popup_menu_item tight" href="?l=french">Français (French)</a>
+                                              <a class="popup_menu_item tight" href="?l=greek">Ελληνικά (Greek)</a>
+                                              <a class="popup_menu_item tight" href="?l=german">Deutsch (German)</a>
+                                              <a class="popup_menu_item tight" href="?l=hungarian">Magyar (Hungarian)</a>
+                                              <a class="popup_menu_item tight" href="?l=italian">Italiano (Italian)</a>
+                                              <a class="popup_menu_item tight" href="?l=japanese">日本語 (Japanese)</a>
+                                                              <a class="popup_menu_item tight" href="?l=koreana">한국어 (Korean)</a>
+                                              <a class="popup_menu_item tight" href="?l=norwegian">Norsk (Norwegian)</a>
+                                              <a class="popup_menu_item tight" href="?l=polish">Polski (Polish)</a>
+                                              <a class="popup_menu_item tight" href="?l=portuguese">Português (Portuguese)</a>
+                                              <a class="popup_menu_item tight" href="?l=brazilian">Português-Brasil (Portuguese-Brazil)</a>
+                                              <a class="popup_menu_item tight" href="?l=russian">Русский (Russian)</a>
+                                              <a class="popup_menu_item tight" href="?l=romanian">Română (Romanian)</a>
+                                              <a class="popup_menu_item tight" href="?l=schinese">简体中文 (Simplified Chinese)</a>
+                                              <a class="popup_menu_item tight" href="?l=spanish">Español (Spanish)</a>
+                                              <a class="popup_menu_item tight" href="?l=swedish">Svenska (Swedish)</a>
+                                              <a class="popup_menu_item tight" href="?l=tchinese">繁體中文 (Traditional Chinese)</a>
+                                              <a class="popup_menu_item tight" href="?l=thai">ไทย (Thai)</a>
+                                              <a class="popup_menu_item tight" href="?l=turkish">Türkçe (Turkish)</a>
+                            <a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Help us translate Steam</a>
+            </div>
+          </div>
+              </div>
+    </div>
+      </div>
+</div>
+
+  <div id="game_background_holder"><div id="game_background" style="background-image: url(http://cdn.steampowered.com/v/gfx/apps/211420/page.bg.jpg?t=1355944286);"></div></div>
+  <div id="store_header">
+    <div class="content">
+      <div id="store_controls">
+        <div id="cart_status_data">
+              
+                                <div class="store_header_btn_green store_header_btn" id="store_header_cart_btn" style="display: none;">
+              <div class="store_header_btn_caps store_header_btn_leftcap"></div>
+              <div class="store_header_btn_caps store_header_btn_rightcap"></div>
+              <a id="cart_link" class="store_header_btn_content" href="http://store.steampowered.com/cart/?snr=1_5_9__12">
+                Cart                (<span id="cart_item_count_value">0</span>)
+              </a>
+            </div>
+                  </div>
+      </div>    
+              <div id="store_nav_area">
+          <div class="store_nav_leftcap"></div>
+          <div class="store_nav_bg">
+            <div class="store_nav">
+              <a class="tab " href="http://store.steampowered.com/?snr=1_5_9__12">
+                <span>Featured Items              </a>
+                              <div class="tab " id="genre_tab" onmouseover="FlyoutMenu( 'genre_tab', 'genre_flyout', 'left', 'bottom' );" onmouseout="HideFlyoutMenu( event, 'genre_tab', 'genre_flyout' );">
+                  <span class="pulldown">Games<span ></span></span>
+          
+                </div>
+                <div class="popup_block" id="genre_flyout" style="display: none;" onmouseout="HideFlyoutMenu( event, 'genre_tab', 'genre_flyout' );">
+                  <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>                  <div class="popup_body popup_menu shadow_content">
+                                                                <a class="popup_menu_item" href="http://store.steampowered.com/genre/Free%20to%20Play/?snr=1_5_9__12">
+                        Free to Play                      </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/Action/?snr=1_5_9__12">
+                        Action                      </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/Adventure/?snr=1_5_9__12">
+                        Adventure                     </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/Strategy/?snr=1_5_9__12">
+                        Strategy                      </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/RPG/?snr=1_5_9__12">
+                        RPG                     </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/Indie/?snr=1_5_9__12">
+                        Indie                     </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/Massively%20Multiplayer/?snr=1_5_9__12">
+                        Massively Multiplayer                     </a>
+                                                                                                                                <a class="popup_menu_item" href="http://store.steampowered.com/genre/Casual/?snr=1_5_9__12">
+                        Casual                      </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/Simulation/?snr=1_5_9__12">
+                        Simulation                      </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/Racing/?snr=1_5_9__12">
+                        Racing                      </a>
+                                                                                      <a class="popup_menu_item" href="http://store.steampowered.com/genre/Sports/?snr=1_5_9__12">
+                        Sports                      </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div class="hr"></div>
+                    <a class="popup_menu_item" href="http://store.steampowered.com/browse/mac/?snr=1_5_9__12">
+                      Mac OS X                    </a>
+                  </div>
+                </div>
+                                          <a class="tab " href="http://store.steampowered.com/software/?snr=1_5_9__12">
+                <span>Software</span>
+              </a>
+                            <a class="tab " href="http://store.steampowered.com/freestuff/demos/?snr=1_5_9__12">
+                <span>Demos</span>
+              </a>
+              <a class="tab " href="http://store.steampowered.com/recommended/?snr=1_5_9__12">
+                <span>Recommended</span>
+              </a>
+              <a class="tab " href="http://store.steampowered.com/news/?snr=1_5_9__12">
+                <span>NEWS</span>
+              </a>
+                            <a class="tab " href="http://store.steampowered.com/browse/linux/?snr=1_5_9__12">
+                <span>Linux</span>
+              </a>
+                            
+              <div id="store_search">
+                <form id="searchform" name="searchform" method="get" action="http://store.steampowered.com/search/" onsubmit="return SearchSuggestCheckTerm(this);">
+                <input type="hidden" name="snr" value="1_5_9__12" >
+                <div class="searchbox">
+                  <input id="store_nav_search_term" name="term" type="text" class="default" value="search the store" size="22" autocomplete="off"> 
+                  <a href="#" id="store_search_link" onclick="var form = $(this).up('form'); if ( form.onsubmit() ) form.submit(); return false;"><img src="http://cdn.store.steampowered.com/public/images/blank.gif"></a>
+                </div>
+                </form>
+              </div>
+              <div id="searchterm_options" class="search_suggest popup_block" style="display: none;">
+                <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>                <div class="popup_body shadow_content" style="border-top: none;">
+                  <div id="search_suggestion_contents">
+                  </div>
+                </div>
+              </div>
+              <script language="JavaScript">
+              <!--
+              EnableSearchSuggestions( $('searchform').elements['term'], '1_5_9_', 'US', 'english' );
+              //-->
+              </script>
+                          
+            </div>
+          </div>
+          <div class="store_nav_rightcap"></div>
+        </div>
+          </div>
+  </div>
+  <script type="text/javascript">
+  var g_SteamID = 0;
+
+  function GetUserTimeDelta()
+  {
+    var cookies = document.cookie.split(";");
+    for( var i = 0; i < cookies.length; i++ )
+    {
+      var key = cookies[i].substr( 0, cookies[i].indexOf( "=" ) );
+      key = key.replace( /^\s+|\s+$/g, "" );
+
+      if( key == "user_time_delta" )
+      {
+        var value = unescape( cookies[i].substr( cookies[i].indexOf( "=" ) + 1 ) );
+
+        var parts = value.split("|");
+        if (parts.length != 2)
+        {
+          return null;
+        }
+
+        var utd =
+        {
+          lastServerTime: parseInt(parts[0]),
+          timeDelta: parseInt(parts[1])
+        };
+
+        if ( utd.lastServerTime == 0)
+        {
+          return null;
+        }
+
+        return utd;
+      }
+    }
+    return null;
+  }
+
+  function SetUserTimeDelta( utd )
+  {
+    var expirationDate = new Date();
+    expirationDate.setDate( expirationDate.getDate() + 365 );
+    var cookieValue = escape( utd.lastServerTime.toString() + '|' + utd.timeDelta.toString() ) + "; expires=" + expirationDate.toUTCString() + "; path=/";
+
+    document.cookie = "user_time_delta=" + cookieValue;
+  }
+
+  var curServerTime = 1358942684;
+
+  var userTimeDelta = GetUserTimeDelta();
+
+  var g_ServerTime = 0;
+
+  if ( userTimeDelta !== null && userTimeDelta.lastServerTime >= curServerTime )
+  {
+    g_ServerTime = Math.round( new Date().getTime() / 1000 ) + userTimeDelta.timeDelta;
+  }
+  else
+  {
+    g_ServerTime = curServerTime;
+    var utd =
+    {
+      lastServerTime: curServerTime.toString(),
+      timeDelta: (curServerTime - Math.round( new Date().getTime() / 1000 )).toString()
+    };
+
+    SetUserTimeDelta(utd);
+  }
+</script><!-- Main Background -->
+<div id="main">
+
+
+  <div id="main_content" itemscope itemtype="http://schema.org/Product">
+    <meta itemprop="image" content = "http://cdn.steampowered.com/v/gfx/apps/211420/capsule_231x87.jpg?t=1355944286"/>
+    <div class="page_title_area game_title_area">
+      <div class="breadcrumbs">
+                <div class="blockbg">
+                    <a href="http://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+                                &gt; <a href="http://store.steampowered.com/genre/Action/?snr=1_5_9__205">Action Games</a>
+                              &gt; <a href="http://store.steampowered.com/app/211420/?snr=1_5_9__205"><span itemprop="name">Dark Souls&trade;: Prepare To Die&trade; Edition</span></a>
+
+        </div>
+        <div style="clear: left;"></div>
+              </div>
+              <div class="apphub_HeaderStandardTop">
+        <div class="apphub_OtherSiteInfo">
+      <a class="btn_darkblue_white_innerfade btn_medium" href="http://steamcommunity.com//app/211420">
+        <span>Community Hub</span>
+      </a>
+    </div>
+    <div class="apphub_AppIcon"><img src="http://media.steampowered.com/steamcommunity/public/images/apps/211420/a24804c6c8412c8cd9d50efd06bf03fa58ff80a9.jpg"><div class="overlay"></div></div>
+    <div class="apphub_AppName">Dark Souls&trade;: Prepare To Die&trade; Edition</div>
+    <div style="clear: both"></div>
+  </div>
+    </div>
+    
+    <div class="block">
+            <div class="block_content" id="game_highlights">
+        <div class="leftcol">
+          <div class="highlight_ctn">
+            <div class="highlight_overflow">
+              <div id="highlight_player_area" >
+                                                  <div class="highlight_player_item highlight_movie" id="highlight_movie_81964" style="display: none;">
+                    <div id="movie_81964" class="highlight_flash_player_notice" style="display: none;">
+                            <p>You will need to <a href="http://www.adobe.com/go/getflashplayer" target="_blank">Install</a> the latest Flash plugin to view this page properly.</p>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_movie" id="highlight_movie_81950" style="display: none;">
+                    <div id="movie_81950" class="highlight_flash_player_notice" style="display: none;">
+                            <p>You will need to <a href="http://www.adobe.com/go/getflashplayer" target="_blank">Install</a> the latest Flash plugin to view this page properly.</p>
+                    </div>
+                  </div>
+                                
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_5efe46f2e2c65040f529a0d0e7069d6b8bb8e175.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_5efe46f2e2c65040f529a0d0e7069d6b8bb8e175.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_c34cdf130b9ac71c99196007d1e78c05305652b9.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_c34cdf130b9ac71c99196007d1e78c05305652b9.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_99a0f2e9c5d609f281e9bb765d27c84069081ee6.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_99a0f2e9c5d609f281e9bb765d27c84069081ee6.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_3f449f939324f6de99b4f1a2cd0339c0788554ca.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_3f449f939324f6de99b4f1a2cd0339c0788554ca.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_7e76bf1c16414829b38ef141602757e012458ec7.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_7e76bf1c16414829b38ef141602757e012458ec7.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_4930cf836b1a539a3dc78438bd28d7bbb7144080.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_4930cf836b1a539a3dc78438bd28d7bbb7144080.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_2e2a21cfe12acd837b56edfd6021fa66d3a6344d.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_2e2a21cfe12acd837b56edfd6021fa66d3a6344d.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_e3935ede00d64b875f3af060a0eab2d9786732a8.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_e3935ede00d64b875f3af060a0eab2d9786732a8.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_4cd77648e3220c1e353e440de7a0144b8b46855f.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_4cd77648e3220c1e353e440de7a0144b8b46855f.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_754d1f1749df9bf37051415df9f8499070b160b5.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_754d1f1749df9bf37051415df9f8499070b160b5.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_d9b6ac270dcaec4e4974d8add3c2cdd73b7e978f.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_d9b6ac270dcaec4e4974d8add3c2cdd73b7e978f.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_ee6b5ef44b036605a5d24ef8ebcb46ec76f5b5a7.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_ee6b5ef44b036605a5d24ef8ebcb46ec76f5b5a7.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_fcadfedb2176456fedd005793adf34c8590fd113.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_fcadfedb2176456fedd005793adf34c8590fd113.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_ce7411f500e8e9dd3f7cf26aff7cbf22a1c33ac7.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_ce7411f500e8e9dd3f7cf26aff7cbf22a1c33ac7.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_d740b51d99d176f113b9d426735559c3b69f442d.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_d740b51d99d176f113b9d426735559c3b69f442d.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_77557feb237f87d67453c92baee73fb5bd93355c.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_77557feb237f87d67453c92baee73fb5bd93355c.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_55247680ed2e2e1e6ef15b9257ab42bd91a2f743.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_55247680ed2e2e1e6ef15b9257ab42bd91a2f743.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_5a21ae0ad9f3b1ac88dd428eab481a2973b03ba1.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_5a21ae0ad9f3b1ac88dd428eab481a2973b03ba1.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_ca9028bc66ab1b011419fcc625097447b50691b7.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_ca9028bc66ab1b011419fcc625097447b50691b7.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_ceb1b96c70b75c9d31e8d4a184e52f67832516e5.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_ceb1b96c70b75c9d31e8d4a184e52f67832516e5.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_3a9efe05e0c9d6e0ef9644ef1678ce1a25ab424a.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_3a9efe05e0c9d6e0ef9644ef1678ce1a25ab424a.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_a0af9af8bf8282462b522e0cb07ba0e1b501dc04.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_a0af9af8bf8282462b522e0cb07ba0e1b501dc04.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_03f559052587c3727146a4564883d4dbc4eaf636.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_03f559052587c3727146a4564883d4dbc4eaf636.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                  <div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_e46d217de1bb240febec17c243f707dcb461fba8.jpg" style="display: none;">
+                    <div class="screenshot_holder">
+                      <a href="http://cdn.steampowered.com/v/gfx/apps/211420/ss_e46d217de1bb240febec17c243f707dcb461fba8.1920x1080.jpg?t=1355944286" target="_blank"">
+                        <img src="http://cdn.store.steampowered.com/public/images/blank.gif">
+                      </a>
+                    </div>
+                  </div>
+                                <script type="text/javascript">
+                  var rgMovieFlashvars = {
+                                          'movie_81964': {
+                            FILENAME: "http://media.steampowered.com/steam/apps/81964/movieLrg.flv?t=1346188860",
+                            MOVIE_NAME: "Dark+Souls+PTDE++Release+Trailer"
+                         },
+                                          'movie_81950': {
+                            FILENAME: "http://media.steampowered.com/steam/apps/81950/movieLrg.flv?t=1345557270",
+                            MOVIE_NAME: "Dark+Souls+PTDE+GamesCom"
+                         },
+                                        '' : ''
+                  };
+                  var rgCommonFlashVars = {
+                      clientLanguage: "english",
+                      capsuleSize: "huge",
+                      STAGE_WIDTH: 600,
+                      STAGE_HEIGHT: 338,
+                          AUTO_PLAY: "true",
+                          ALLOW_JSPAUSE: "true",
+                          TRACK_MUTE: "true",
+                          CHECKBOX_AUTOPLAY_SHOW: "true",
+                          CHECKBOX_AUTOPLAY_TEXT: "Autoplay+videos" 
+                  };
+                  var rgScreenshotURLs = {
+                                          'ss_5efe46f2e2c65040f529a0d0e7069d6b8bb8e175.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_5efe46f2e2c65040f529a0d0e7069d6b8bb8e175.600x338.jpg?t=1355944286',
+                                          'ss_c34cdf130b9ac71c99196007d1e78c05305652b9.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_c34cdf130b9ac71c99196007d1e78c05305652b9.600x338.jpg?t=1355944286',
+                                          'ss_99a0f2e9c5d609f281e9bb765d27c84069081ee6.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_99a0f2e9c5d609f281e9bb765d27c84069081ee6.600x338.jpg?t=1355944286',
+                                          'ss_3f449f939324f6de99b4f1a2cd0339c0788554ca.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_3f449f939324f6de99b4f1a2cd0339c0788554ca.600x338.jpg?t=1355944286',
+                                          'ss_7e76bf1c16414829b38ef141602757e012458ec7.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_7e76bf1c16414829b38ef141602757e012458ec7.600x338.jpg?t=1355944286',
+                                          'ss_4930cf836b1a539a3dc78438bd28d7bbb7144080.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_4930cf836b1a539a3dc78438bd28d7bbb7144080.600x338.jpg?t=1355944286',
+                                          'ss_2e2a21cfe12acd837b56edfd6021fa66d3a6344d.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_2e2a21cfe12acd837b56edfd6021fa66d3a6344d.600x338.jpg?t=1355944286',
+                                          'ss_e3935ede00d64b875f3af060a0eab2d9786732a8.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_e3935ede00d64b875f3af060a0eab2d9786732a8.600x338.jpg?t=1355944286',
+                                          'ss_4cd77648e3220c1e353e440de7a0144b8b46855f.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_4cd77648e3220c1e353e440de7a0144b8b46855f.600x338.jpg?t=1355944286',
+                                          'ss_754d1f1749df9bf37051415df9f8499070b160b5.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_754d1f1749df9bf37051415df9f8499070b160b5.600x338.jpg?t=1355944286',
+                                          'ss_d9b6ac270dcaec4e4974d8add3c2cdd73b7e978f.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_d9b6ac270dcaec4e4974d8add3c2cdd73b7e978f.600x338.jpg?t=1355944286',
+                                          'ss_ee6b5ef44b036605a5d24ef8ebcb46ec76f5b5a7.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_ee6b5ef44b036605a5d24ef8ebcb46ec76f5b5a7.600x338.jpg?t=1355944286',
+                                          'ss_fcadfedb2176456fedd005793adf34c8590fd113.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_fcadfedb2176456fedd005793adf34c8590fd113.600x338.jpg?t=1355944286',
+                                          'ss_ce7411f500e8e9dd3f7cf26aff7cbf22a1c33ac7.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_ce7411f500e8e9dd3f7cf26aff7cbf22a1c33ac7.600x338.jpg?t=1355944286',
+                                          'ss_d740b51d99d176f113b9d426735559c3b69f442d.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_d740b51d99d176f113b9d426735559c3b69f442d.600x338.jpg?t=1355944286',
+                                          'ss_77557feb237f87d67453c92baee73fb5bd93355c.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_77557feb237f87d67453c92baee73fb5bd93355c.600x338.jpg?t=1355944286',
+                                          'ss_55247680ed2e2e1e6ef15b9257ab42bd91a2f743.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_55247680ed2e2e1e6ef15b9257ab42bd91a2f743.600x338.jpg?t=1355944286',
+                                          'ss_5a21ae0ad9f3b1ac88dd428eab481a2973b03ba1.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_5a21ae0ad9f3b1ac88dd428eab481a2973b03ba1.600x338.jpg?t=1355944286',
+                                          'ss_ca9028bc66ab1b011419fcc625097447b50691b7.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_ca9028bc66ab1b011419fcc625097447b50691b7.600x338.jpg?t=1355944286',
+                                          'ss_ceb1b96c70b75c9d31e8d4a184e52f67832516e5.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_ceb1b96c70b75c9d31e8d4a184e52f67832516e5.600x338.jpg?t=1355944286',
+                                          'ss_3a9efe05e0c9d6e0ef9644ef1678ce1a25ab424a.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_3a9efe05e0c9d6e0ef9644ef1678ce1a25ab424a.600x338.jpg?t=1355944286',
+                                          'ss_a0af9af8bf8282462b522e0cb07ba0e1b501dc04.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_a0af9af8bf8282462b522e0cb07ba0e1b501dc04.600x338.jpg?t=1355944286',
+                                          'ss_03f559052587c3727146a4564883d4dbc4eaf636.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_03f559052587c3727146a4564883d4dbc4eaf636.600x338.jpg?t=1355944286',
+                                          'ss_e46d217de1bb240febec17c243f707dcb461fba8.jpg' : 'http://cdn.steampowered.com/v/gfx/apps/211420/ss_e46d217de1bb240febec17c243f707dcb461fba8.600x338.jpg?t=1355944286',
+                                        '' : ''
+                  };
+                </script>
+              </div>
+                            <div id="highlight_strip">
+                <div id="highlight_strip_scroll" style="width: 3122px;">
+                  <div class="highlight_selector"></div>
+    
+                                      <div class="highlight_strip_item highlight_strip_movie" id="thumb_movie_81964" >
+                      <img class="movie_thumb" src="http://cdn.steampowered.com/v/gfx/apps/81964/movie.184x123.jpg?t=1346188860">
+                      <div class="highlight_movie_marker"></div>
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_movie" id="thumb_movie_81950" >
+                      <img class="movie_thumb" src="http://cdn.steampowered.com/v/gfx/apps/81950/movie.184x123.jpg?t=1345557270">
+                      <div class="highlight_movie_marker"></div>
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_5efe46f2e2c65040f529a0d0e7069d6b8bb8e175.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_5efe46f2e2c65040f529a0d0e7069d6b8bb8e175.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_c34cdf130b9ac71c99196007d1e78c05305652b9.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_c34cdf130b9ac71c99196007d1e78c05305652b9.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_99a0f2e9c5d609f281e9bb765d27c84069081ee6.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_99a0f2e9c5d609f281e9bb765d27c84069081ee6.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_3f449f939324f6de99b4f1a2cd0339c0788554ca.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_3f449f939324f6de99b4f1a2cd0339c0788554ca.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_7e76bf1c16414829b38ef141602757e012458ec7.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_7e76bf1c16414829b38ef141602757e012458ec7.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_4930cf836b1a539a3dc78438bd28d7bbb7144080.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_4930cf836b1a539a3dc78438bd28d7bbb7144080.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_2e2a21cfe12acd837b56edfd6021fa66d3a6344d.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_2e2a21cfe12acd837b56edfd6021fa66d3a6344d.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_e3935ede00d64b875f3af060a0eab2d9786732a8.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_e3935ede00d64b875f3af060a0eab2d9786732a8.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_4cd77648e3220c1e353e440de7a0144b8b46855f.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_4cd77648e3220c1e353e440de7a0144b8b46855f.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_754d1f1749df9bf37051415df9f8499070b160b5.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_754d1f1749df9bf37051415df9f8499070b160b5.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_d9b6ac270dcaec4e4974d8add3c2cdd73b7e978f.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_d9b6ac270dcaec4e4974d8add3c2cdd73b7e978f.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_ee6b5ef44b036605a5d24ef8ebcb46ec76f5b5a7.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_ee6b5ef44b036605a5d24ef8ebcb46ec76f5b5a7.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_fcadfedb2176456fedd005793adf34c8590fd113.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_fcadfedb2176456fedd005793adf34c8590fd113.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_ce7411f500e8e9dd3f7cf26aff7cbf22a1c33ac7.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_ce7411f500e8e9dd3f7cf26aff7cbf22a1c33ac7.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_d740b51d99d176f113b9d426735559c3b69f442d.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_d740b51d99d176f113b9d426735559c3b69f442d.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_77557feb237f87d67453c92baee73fb5bd93355c.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_77557feb237f87d67453c92baee73fb5bd93355c.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_55247680ed2e2e1e6ef15b9257ab42bd91a2f743.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_55247680ed2e2e1e6ef15b9257ab42bd91a2f743.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_5a21ae0ad9f3b1ac88dd428eab481a2973b03ba1.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_5a21ae0ad9f3b1ac88dd428eab481a2973b03ba1.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_ca9028bc66ab1b011419fcc625097447b50691b7.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_ca9028bc66ab1b011419fcc625097447b50691b7.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_ceb1b96c70b75c9d31e8d4a184e52f67832516e5.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_ceb1b96c70b75c9d31e8d4a184e52f67832516e5.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_3a9efe05e0c9d6e0ef9644ef1678ce1a25ab424a.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_3a9efe05e0c9d6e0ef9644ef1678ce1a25ab424a.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_a0af9af8bf8282462b522e0cb07ba0e1b501dc04.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_a0af9af8bf8282462b522e0cb07ba0e1b501dc04.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_03f559052587c3727146a4564883d4dbc4eaf636.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_03f559052587c3727146a4564883d4dbc4eaf636.116x65.jpg?t=1355944286">
+                    </div>
+                                      <div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_e46d217de1bb240febec17c243f707dcb461fba8.jpg" >
+                      <img src="http://cdn.steampowered.com/v/gfx/apps/211420/ss_e46d217de1bb240febec17c243f707dcb461fba8.116x65.jpg?t=1355944286">
+                    </div>
+                                  </div>
+              </div>
+                              <div>
+                  <div class="slider" id="highlight_slider" >
+                    <div class="slider_bg">
+                    </div>
+                    <div class="handle">
+                    </div>
+                  </div>
+                </div>
+                <script type="text/javascript">
+    
+                  Event.observe( document, 'dom:loaded', function() {
+                    new HighlightPlayer( {
+                      elemPlayerArea: 'highlight_player_area',
+                      elemStrip: 'highlight_strip',
+                      elemStripScroll: 'highlight_strip_scroll',
+                      elemSlider: 'highlight_slider',
+                      rgMovieFlashvars: rgMovieFlashvars,
+                      rgScreenshotURLs: rgScreenshotURLs,
+                      rgDefaultMovieFlashvars: rgCommonFlashVars
+                    } );
+                  } );
+                    
+                </script>
+                          </div>
+          </div>
+        </div>
+        <div class="rightcol">
+          <div class="glance_ctn">
+            <div class="game_header_image_ctn">
+              <img class="game_header_image" src="http://cdn.steampowered.com/v/gfx/apps/211420/header_292x136.jpg?t=1355944286">
+            </div>
+                          <div class="game_description_snippet">
+                New Content for PC Dark Souls™: Prepare to Die™ Edition will include an untold chapter in the world of Lordran. Sent back to the past, player will discover the story when Knight Artorias still lives. New Bosses – Including Black Dragon, Sanctuary Guardian, Artorias of the Abyss.             </div>
+                        
+            <div class="inner_rule"></div>
+            
+                
+            <div class="glance_details">
+              <div>
+                                Genre: <a href="http://store.steampowered.com/genre/Action?snr=1_5_9__400/">Action</a>, <a href="http://store.steampowered.com/genre/RPG?snr=1_5_9__400/">RPG</a><br>
+                              </div>
+                              <div>
+                  Release Date: Aug 23, 2012                </div>
+                          </div>
+            
+            <div class="inner_rule"></div>
+            
+                          <a class="linkbar" href="javascript:screenshot_popup('http://store.steampowered.com/screenshot/view/211420/0?snr=1_5_9__400', 800, 635, 0, 0);">
+                <div class="rightblock"><img src="http://cdn.store.steampowered.com/public/images/ico/ico_screenshots.png"></div>
+                View all 24 screenshots             </a>
+                        
+                        
+              <a class="linkbar" href="http://store.steampowered.com/video/211420?snr=1_5_9__400">
+                <div class="rightblock"><img src="http://cdn.store.steampowered.com/public/images/ico/ico_trailers.png"></div>
+                                  Watch all 2 trailers                              </a>
+            
+                          
+          </div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+                </div>
+    
+    <div class="leftcol game_description_column">
+    
+                  
+      
+            <div id="game_area_purchase">
+                          <div id="purchase_note">
+            <div class="notice_box_top"></div>
+                          <div class="notice_box_content">
+                                  <b>Notice:</b>
+                 
+                <p>Microsoft Xbox 360® Controller for Windows® (or equivalent) is strongly recommended.</p>             </div>
+                        <div class="notice_box_bottom"></div>
+          </div>
+        
+              
+      
+      <div class="game_area_purchase_game_wrapper">
+  <div  class="game_area_purchase_game">
+    <form name="add_to_cart_15579" action="http://store.steampowered.com/cart/" method="POST">
+      <input type="hidden" name="snr" value="1_5_9__403">
+      <input type="hidden" name="action" value="add_to_cart">
+      <input type="hidden" name="subid" value="15579">
+    </form>
+        <div class="game_area_purchase_platform"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_win.png" width="22" height="22"></div>
+    <h1>Buy Dark Souls&trade;: Prepare To Die&trade; Edition</h1>
+        
+    
+    <div class="game_purchase_action" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <div class="game_purchase_action_bg">
+                                      <div class="game_purchase_price price"  itemprop="price">
+              &#36;39.99            </div>
+                          <div class="btn_addtocart">
+          <div class="btn_addtocart_left"></div>
+           
+            <a class="btn_addtocart_content" href="javascript:addToCart( 15579);">Add to Cart</a>
+                    <div class="btn_addtocart_right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    </div>
+    <!-- game_area_purchase -->
+
+      
+    
+      
+          <div id="game_area_description" class="game_area_description">
+        <h2>About the Game</h2>
+        <p><p><strong>New Content for PC</strong></p>
+<p>Dark Souls™: Prepare to Die™ Edition will include an untold chapter in the world of Lordran. Sent back to the past, player will discover the story when Knight Artorias still lives. </p>
+<ul>  
+<li>New Bosses – Including Black Dragon, Sanctuary Guardian, Artorias of the Abyss. 
+<li>PVP Arena & Online Matchmaking System – Quick matching for players to play 1vs1, 2vs2 and 4 player battle royal.
+<li>New Areas – Including Oolacile Township, Oolacile Sanctuary, Royal Wood, Battle of Stoicism which is the training ground for online PVP battles. 
+<li>New Enemies – Including Wooden scarecrows, Chained Prisoner, Stone Knight. 
+<li>New NPCs – Including Hawkeye Gough, Elizabeth (keeper of the sanctuary).
+<li>New Weapons and Armor – Equip some from the new bosses, enemies, and NPCs 
+</ul>
+
+<h2>The Story</strong></h2>
+<p>Dark Souls is the new action role-playing game from the developers who brought you Demon’s Souls, FromSoftware. Dark Souls will have many familiar features: A dark fantasy universe, tense dungeon crawling, fearsome enemy encounters and unique online interactions. Dark Souls is a spiritual successor to Demon’s, not a sequel. Prepare for a new, despair-inducing world, with a vast, fully-explorable horizon and vertically-oriented landforms. Prepare for a new, mysterious story, centered around the the world of Lodran, but most of all, prepare to die. You will face countless murderous traps, countless darkly grotesque mobs and several gargantuan, supremely powerful demons and dragons bosses. You must learn from death to persist through this unforgiving world. And you aren’t alone. Dark Souls allows the spirits of other players to show up in your world, so you can learn from their deaths and they can learn from yours. You can also summon players into your world to co-op adventure, or invade other's worlds to PVP battle. New to Dark Souls are Bonfires, which serve as check points as you fight your way through this epic adventure. While rested at Bonfires, your health and magic replenish but at a cost, all mobs respawn. Beware: There is no place in Dark Souls that is truly safe. With days of game play and an even more punishing difficulty level, Dark Souls will be the most deeply challenging game you play this year. Can you live through a million deaths and earn your legacy?</p>
+
+<h2>Key Features:</h2>
+<ul>
+<li>Extremely Deep, Dark & Difficult – Unforgiving in its punishment, yet rewarding for the determined – learn to strategize freely and conquer seemingly impossible challenges.
+<li>Fully Seamless World – Explore a completely integrated world of dark fantasy where dungeons and areas are seamlessly intertwined, with great height.
+<li>Mastery Earns Progression – Contains 60 hours of gameplay, with nearly 100 uniquely despair-inducing monsters & an incredibly nuanced RPG systems including: weaponry, armor, miracles, faith, and more. Player success depends on their eventual mastery of how and when to use the magic spells, choice of armor, the number of weapons, the types of weapons, and the moves attached to the weapons.
+<li>Network Play – Players may cross paths with one another, invading each other for PVP battles, or to play co-op and take on giant boss encounters as a team.
+<li>Flexible Character Development & Role Play – As the player progresses, they must carefully choose which of their character’s abilities to enhance as this will determine their progression style.
+<li>Community – See other real players and empathize with their journey, learn from seeing how others died, find and leave messages for your fellow players; helping them or leading them into death.
+<li>Symbolic of Life & Hope – The Bonfire is an important feature in Dark Souls for many reasons. Though in gameplay it serves as a health and magic recovery and a progression check point, it also happens to be the one place in the dark world where players can find a fleeting moment of warmth and calm.
+</ul></p>
+      </div>
+      
+            <div id="game_area_sys_req" class="game_area_description">
+          <h2>
+            System Requirements         </h2>
+      
+                      <div id="game_area_sys_req_full">
+              <ul>
+                <ul>
+                <li><strong>OS:</strong> Windows XP , Windows Vista, Windows 7, or newer
+                <li><strong>Processor:</strong> Intel Core 2 Duo E6850 GHz+ or AMD Phenom II X2 545 3.0 GHz+
+                <li><strong>Memory:</strong> 2 GB
+                <li><strong>Hard Disk Space: </strong> 8GB              
+                <li><strong>Video Card:</strong>  GeForce 9800 GTX+ or ATI Radeon HD 4870+
+                <li><strong>DirectX&reg;:</strong> 9.0c 
+                <li><strong>Sound:</strong> Direct Sound Compatible
+<li><strong>Additional:</strong> Online play requires software installation of and log-in to Games For Windows - LIVE, Microsoft Xbox 360® Controller for Windows® (or equivalent) is strongly recommended.
+              
+</ul>
+              </ul>
+            </div>
+                  
+          <div style="clear: both;"></div>
+        </div>
+                        
+  
+          <div id="game_area_legal">
+        <p>Dark Souls™ Prepare to Die™ Edition & © 2012 NAMCO BANDAI Games Inc. © 2011-2012 Fromsoftware, Inc.</p>
+      </div>
+        
+        
+                <div class="block">
+        <div class="block_header">
+          <h4>Recommended</h4>
+        </div>
+        <div class="block_content nopad">
+                      <a class="small_cap" id="recommendation_cap_0" href="http://store.steampowered.com/app/200710/?snr=1_5_9__300" onmouseover="GameHover( this, event, $('global_hover'), {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:&quot;200710&quot;} );" onmouseout="HideGameHover( this, event, $('global_hover') )">
+              <img class="small_cap_img" src="http://cdn.steampowered.com/v/gfx/apps/200710/capsule_184x69.jpg?t=1358783784" border="0" width="184" height="69"/>
+              <h4>Torchlight II</h4>
+                              <h5>&#36;19.99</h5>
+                          </a>
+                      <a class="small_cap" id="recommendation_cap_0" href="http://store.steampowered.com/app/205100/?snr=1_5_9__300" onmouseover="GameHover( this, event, $('global_hover'), {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:&quot;205100&quot;} );" onmouseout="HideGameHover( this, event, $('global_hover') )">
+              <img class="small_cap_img" src="http://cdn.steampowered.com/v/gfx/apps/205100/capsule_184x69.jpg?t=1356045686" border="0" width="184" height="69"/>
+              <h4>Dishonored</h4>
+                              <h5>&#36;59.99</h5>
+                          </a>
+                      <a class="small_cap" id="recommendation_cap_0" href="http://store.steampowered.com/app/49520/?snr=1_5_9__300" onmouseover="GameHover( this, event, $('global_hover'), {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:49520} );" onmouseout="HideGameHover( this, event, $('global_hover') )">
+              <img class="small_cap_img" src="http://cdn.steampowered.com/v/gfx/apps/49520/capsule_184x69.jpg?t=1358877408" border="0" width="184" height="69"/>
+              <h4>Borderlands 2</h4>
+                              <h5>&#36;59.99</h5>
+                          </a>
+                    <div style="clear: left;"></div>
+        </div>
+      </div>
+              
+  </div>
+
+<!-- Right Column -->
+  <div class="rightcol">
+  
+      
+    <div class="block" id="demo_block">
+    <div class="block_content block_content_inner underlined_links">
+                    <div class="demo_area_button">
+                                  <div class="demo_area_button">
+              <p><a href="http://store.steampowered.com/login/?redir=app%2F211420">Sign in</a> to add this game to your wishlist</p>
+            </div>
+                  </div>
+            <div class="demo_area_button">
+        <div class="share">Share:&nbsp; <a href="http://store.steampowered.com/share/facebook/app/211420" target="_blank" title="Share on Facebook"><img src="http://cdn.store.steampowered.com/public/images/v5/social/facebook.gif"></a>&nbsp; <a href="http://store.steampowered.com/share/twitter/app/211420" target="_blank" title="Share on Twitter"><img src="http://cdn.store.steampowered.com/public/images/v5/social/twitter.gif"></a>&nbsp; <a href="http://store.steampowered.com/share/reddit/app/211420" target="_blank" title="Share on Reddit"><img src="http://cdn.store.steampowered.com/public/images/v5/social/reddit.gif"></a></div>     </div>
+    </div>
+  </div>
+  
+
+          <div class="block communitylink">
+        <div class="block_header">
+          <h4>Community</h4>
+        </div>
+        <div class="block_content">
+          <div class="block_content_inner">
+                          <a class="linkbar" href="http://steamcommunity.com/app/211420/discussions/">
+                <div class="rightblock"><img src="http://cdn.store.steampowered.com/public/images/ico/link_forums.gif" width="16" height="16" border="0" align="top" /></div>
+                Visit the forums              </a>
+                                    <a class="linkbar" href="http://steamcommunity.com/actions/Search?T=ClanAccount&K=Dark%20Souls%3A%20Prepare%20To%20Die%20Edition">
+              <div class="rightblock"><img src="http://cdn.store.steampowered.com/public/images/v5/ico_find.png" width="16" height="16" border="0" align="top" /></div>
+              Find Community Groups           </a>
+          </div>
+          
+          
+
+
+                          <div class="rule"></div>
+                            <div class="block_content_inner">
+              <img src = "http://cdn.store.steampowered.com/public/images/recommended/thumb_big.png" style="float:left; padding:10px 15px 10px 0;" />
+                <div style = "padding-top: 6px">
+              11,874 players recommend this game to their friends                 </div>
+              <div style="clear: left;"></div>
+            </div>
+                          
+                  </div>
+      </div>
+        
+    <div class="block game_details underlined_links">
+            <div class="block_header">
+        <h4></h4>
+      </div>
+      <div class="block_content">
+      <div class="block_content_inner" itemprop="review" itemscope itemtype="http://www.schema.org/Review">
+                              <div id="game_area_metascore">
+              85              <meta itemprop="reviewRating" content = "4.25"/>
+              <meta itemprop="author" content = "Metacritic"/>
+            </div>
+                      <div id="game_area_metalink"><a href="http://www.metacritic.com/game/pc/dark-souls-prepare-to-die-edition" target="_blank">Read Critic Reviews</a> <img src="http://cdn.store.steampowered.com/public/images/ico/iconExternalLink.gif" border="0" align="bottom"></div>
+                              <div class="inner_rule"></div>
+          
+        
+        <div class="details_block">
+        <b>Title:</b> Dark Souls&trade;: Prepare To Die&trade; Edition<br>
+  
+                <b>Genre:</b> <a href="http://store.steampowered.com/genre/Action/?snr=1_5_9__408">Action</a>, <a href="http://store.steampowered.com/genre/RPG/?snr=1_5_9__408">RPG</a><br>
+          
+                  <b>Developer:</b>
+                                  <a href="http://store.steampowered.com/search/?developer=FromSoftware&snr=1_5_9__408">FromSoftware</a>
+                    <br>
+          
+                  <b>Publisher:</b>
+          <a href="http://store.steampowered.com/publisher/Namco%20Bandai%20Games?snr=1_5_9__408">Namco Bandai Games</a>          <br>
+          
+         
+        <b>Release Date:</b> Aug 23, 2012<br>
+                <b>Languages:</b> English<strong>*</strong>, French, German, Italian, Polish, Russian, Spanish, Korean, Traditional Chinese<br><strong>*</strong>languages with full audio support                    
+          <br><b>3rd-party DRM:</b> Microsoft 
+          
+                </div>
+        
+  
+  
+                  <div class="game_rating_area details_block">
+                      <table cellpadding="0" cellspacing="0">
+            <tr>
+              <td valign="top"><p><img src="http://cdn.store.steampowered.com/public/images/ratings/esrb_m.gif"></p></td>
+              <td width="10"></td>
+              <td valign="top"><p id="descriptorText">Blood and Gore<br>
+Partial Nudity<br>
+Violence</p></td>
+            </tr>
+            </table>
+                      <p>Online Interactions Not Rated by the ESRB</p>
+                    </div>
+                  
+        <div class="details_block">
+                      <div class="game_area_details_specs">
+              <div class="icon"><img src="http://cdn.store.steampowered.com/public/images/ico/ico_singlePlayer.gif" align="top" /></div>
+              <div class="name">Single-player</div>
+            </div>
+                      <div class="game_area_details_specs">
+              <div class="icon"><img src="http://cdn.store.steampowered.com/public/images/ico/ico_multiPlayer.gif" align="top" /></div>
+              <div class="name">Multi-player</div>
+            </div>
+                      <div class="game_area_details_specs">
+              <div class="icon"><img src="http://cdn.store.steampowered.com/public/images/ico/ico_partial_controller.gif" align="top" /></div>
+              <div class="name">Partial Controller Support</div>
+            </div>
+                  </div>
+
+        
+        
+        <div class="details_block">
+                      <a class="linkbar" href="http://preparetodie.com/" target="_blank">
+              <div class="rightblock"><img src="http://cdn.store.steampowered.com/public/images/ico/link_web.gif" width="16" height="16" border="0" align="top"  ></div>
+              Visit the website <img src="http://cdn.store.steampowered.com/public/images/v5/ico_external_link.gif" border="0" align="bottom">
+            </a>
+                    
+                    
+                      <a class="linkbar" href="http://cdn.steampowered.com/v/../Manuals/211420/DarkSouls_PC_Manual_Online_GB.pdf?t=1355944286" target="_blank">
+              <div class="rightblock"><img src="http://cdn.store.steampowered.com/public/images/ico/link_manual.gif" width="16" height="16" border="0" align="top" /></div>
+              View the manual <img src="http://cdn.store.steampowered.com/public/images/v5/ico_external_link.gif" border="0" align="bottom">
+            </a>
+                    
+            
+            
+                      <a class="linkbar" href="http://store.steampowered.com/news/?feed=steam_updates&appids=211420">
+              <div class="rightblock"><img src="http://cdn.store.steampowered.com/public/images/ico/link_history.gif" width="16" height="16" border="0" align="top" /></div>
+              View update history           </a>
+            <a class="linkbar" href="http://store.steampowered.com/news/?appids=211420">
+              <div class="rightblock"><img src="http://cdn.store.steampowered.com/public/images/ico/link_news.gif" width="16" height="16" border="0" align="top" /></div>
+              Read related news           </a>
+                  </div>
+      </div>
+      </div>
+          </div>
+    
+        
+        
+    <br>
+    
+
+  </div>
+  <!-- End Right Column -->
+  <div style="clear: both;"></div>
+  
+      <div class="hover" id="global_hover" style="display: none; left: 0px; top: 0px;">
+      <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>      <div class="hover_box shadow_content">
+        <div class="content" id="global_hover_content">
+        </div>
+      </div>
+      <div class="hover_arrow_left"></div>
+      <div class="hover_arrow_right"></div>
+    </div>
+</div>
+</div>
+
+<div id="gotSteamModal" style="display:none;">
+  <div id="top_band">
+    <div id="modal_close"><a href="javascript:hideModal('gotSteamModal')"><img src="http://cdn.store.steampowered.com/public/images/x9x9.gif" width="9" height="9" border="0" /></a></div>
+  </div>
+  <div id="got_steam_box">
+    <h1>Got Steam?</h1>
+    <p>You need to have Steam installed to get <strong id="gotSteam_AppName"></strong></p>
+    <div id="gotsteam_buttons">
+      <a id="gotSteam_SteamURL" href="" class="btn_white leftbtn">
+        <h3>Yes, I have Steam</h3>
+        <h5>OPEN STEAM</h5>
+      </a>
+      <a href="http://store.steampowered.com/about/" class="btn_white">
+        <h3>No, I do not have Steam</h3>
+        <h5>FREE 1.5 MB DOWNLOAD</h5>
+      </a>
+      <div style="clear: left;"></div>
+    </div>
+    <div id="low_block">
+      <div id="steam_ico"><img src="http://cdn.store.steampowered.com/public/images/steam_ico.gif" width="40" height="40" border="0" /></div>
+      Steam is the premiere desktop gaming platform. It's free to join and easy to use. <a href="http://store.steampowered.com/about/">Learn more about Steam.</a>
+    </div></div>
+</div>
+<div id="modalBG" style="display: none;"></div>
+<!-- Footer -->
+<div id="footer">
+  <div class="footer_content">
+    <div class="rule"></div>
+    
+    <div id="footer_nav">
+    
+          
+              <span class="pulldown" id="footer_genre_pulldown">
+          SHOP BY GENRE       </span>
+        <div class="popup_block" id="footer_genre_dropdown" style="display: none;">
+          <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>          <div class="popup_body popup_menu shadow_content">
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Free%20to%20Play?snr=1_44_44__20">
+                Free to Play              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Action?snr=1_44_44__20">
+                Action              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Adventure?snr=1_44_44__20">
+                Adventure             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Strategy?snr=1_44_44__20">
+                Strategy              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/RPG?snr=1_44_44__20">
+                RPG             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Indie?snr=1_44_44__20">
+                Indie             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Massively%20Multiplayer?snr=1_44_44__20">
+                Massively Multiplayer             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Casual?snr=1_44_44__20">
+                Casual              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Simulation?snr=1_44_44__20">
+                Simulation              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Racing?snr=1_44_44__20">
+                Racing              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Sports?snr=1_44_44__20">
+                Sports              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Accounting?snr=1_44_44__20">
+                Accounting              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Animation%20%26%20Modeling?snr=1_44_44__20">
+                Animation & Modeling              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Audio%20Production?snr=1_44_44__20">
+                Audio Production              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Design%20%26%20Illustration?snr=1_44_44__20">
+                Design & Illustration             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Education?snr=1_44_44__20">
+                Education             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Photo%20Editing?snr=1_44_44__20">
+                Photo Editing             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Software%20Training?snr=1_44_44__20">
+                Software Training             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Utilities?snr=1_44_44__20">
+                Utilities             </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Video%20Production?snr=1_44_44__20">
+                Video Production              </a>
+                          <a class="popup_menu_item" href="http://store.steampowered.com/genre/Web%20Publishing?snr=1_44_44__20">
+                Web Publishing              </a>
+                      </div>
+        </div>
+                    <span class="pulldown" id="footer_category_pulldown">
+        SHOP BY CATEGORY      </span>
+      <div class="popup_block" id="footer_category_dropdown" style="display: none;">
+                <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>        <div class="popup_body popup_menu shadow_content">
+          <a class="popup_menu_item" href="http://store.steampowered.com/freestuff/demos/?snr=1_44_44__21">
+            Demos         </a>
+          <a class="popup_menu_item" href="http://store.steampowered.com/freestuff/videos/?snr=1_44_44__21">
+            Videos          </a>
+          <a class="popup_menu_item" href="http://store.steampowered.com/search/?category2=21&snr=1_44_44__21">
+            Downloadable Content          </a>
+          <a class="popup_menu_item" href="http://store.steampowered.com/browse/publishers?snr=1_44_44__21">
+            Game Publisher Catalogs         </a>
+                                <a class="popup_menu_item" href="http://store.steampowered.com/browse/under10?snr=1_44_44__21">
+              Games Under &#36;10           </a>
+                      <a class="popup_menu_item" href="http://store.steampowered.com/browse/under5?snr=1_44_44__21">
+              Games Under &#36;5            </a>
+                  </div>
+              </div>
+      <span class="pulldown" id="footer_steam_pulldown">
+        ABOUT STEAM     </span>
+      <div class="popup_block" id="footer_steam_dropdown" style="display: none;">
+                <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>        <div class="popup_body popup_menu shadow_content">
+          <a class="popup_menu_item" href="http://store.steampowered.com/about/?snr=1_44_44__22">
+            What is Steam?          </a>
+          <!--
+          <a class="popup_menu_item" href="">
+            Download Steam now          </a>
+          -->
+          <a class="popup_menu_item" href="https://support.steampowered.com/kb_article.php?p_faqid=549#gifts" target="_blank">
+            Gifting on Steam          </a>
+          <a class="popup_menu_item" href="https://steamcommunity.com/?snr=1_44_44__22">
+            The Steam Community         </a>
+        </div>
+              </div>
+  
+      <span class="pulldown" id="footer_valve_pulldown">
+        ABOUT VALVE     </span>
+      <div class="popup_block" id="footer_valve_dropdown" style="display: none;">
+        <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>        <div class="popup_body popup_menu shadow_content">
+          <a class="popup_menu_item" href="http://www.valvesoftware.com/about.html" target="_blank">
+            About Valve         </a>
+          <a class="popup_menu_item" href="http://www.valvesoftware.com/business/" target="_blank">
+            Business Solutions          </a>
+          <a class="popup_menu_item" href="http://www.steampowered.com/steamworks/" target="_blank">
+            Steamworks          </a>
+          <a class="popup_menu_item" href="http://source.valvesoftware.com/" target="_blank">
+            Source Engine         </a>
+          <a class="popup_menu_item" href="https://cafe.steampowered.com" target="_blank">
+            Cyber Caf&eacute;s          </a>
+          <a class="popup_menu_item" href="http://www.valvesoftware.com/jobs.html" target="_blank">
+            Jobs          </a>
+        </div>
+      </div>
+      
+      
+      <span class="pulldown" id="footer_help_pulldown">
+        HELP      </span>
+      <div class="popup_block" id="footer_help_dropdown" style="display: none;">
+        <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>                <div class="popup_body popup_menu shadow_content">
+          <a class="popup_menu_item" href="http://support.steampowered.com/" target="_blank">
+            Support         </a>
+          <a class="popup_menu_item" href="http://store.steampowered.com/forums/?snr=1_44_44__23" target="_blank">
+            Forums          </a>
+          <a class="popup_menu_item" href="http://store.steampowered.com/stats/?snr=1_44_44__23" target="_blank">
+            Stats         </a>
+        </div>
+              </div>
+      
+      
+      <span class="pulldown" id="footer_tools_pulldown">
+        TOOLS     </span>
+      <div class="popup_block" id="footer_tools_dropdown" style="display: none;">
+        <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>        <div class="popup_body popup_menu shadow_content">
+          <a class="popup_menu_item" href="http://storefront.steampowered.com/download/hldsupdatetool.exe">
+            Windows HLDS Update Tool          </a>
+          <a class="popup_menu_item" href="http://storefront.steampowered.com/download/hldsupdatetool.bin">
+            Linux HLDS Update Tool          </a>
+        </div>
+      </div>
+      
+      
+      <span class="pulldown" id="footer_feeds_pulldown">
+        NEWS FEEDS      </span>
+      <div class="popup_block" id="footer_feeds_dropdown" style="display: none;">
+        <div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepopupfix"><img class="iepopupfix_img" src="http://cdn.store.steampowered.com/public/images/blank.gif" alt =""></div>        <div class="popup_body popup_menu shadow_content">
+          <a class="popup_menu_item" href="http://store.steampowered.com/feeds/news.xml">
+            <img src="http://cdn.store.steampowered.com/public/images/ico/ico_rss2.gif" width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Steam News         </a>
+          <a class="popup_menu_item" href="http://store.steampowered.com/feeds/newreleases.xml">
+            <img src="http://cdn.store.steampowered.com/public/images/ico/ico_rss2.gif" width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Game Releases          </a>
+          <a class="popup_menu_item" href="http://store.steampowered.com/feeds/daily_deals.xml">
+            <img src="http://cdn.store.steampowered.com/public/images/ico/ico_rss2.gif" width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Daily Deals          </a>
+        </div>
+      </div>
+      <div style="clear: left;"></div>
+      
+      <script type="text/javascript">
+        RegisterFlyout( 'footer_genre_pulldown', 'footer_genre_dropdown', null, null, true );
+        RegisterFlyout( 'footer_category_pulldown', 'footer_category_dropdown', null, null, true );
+        RegisterFlyout( 'footer_steam_pulldown', 'footer_steam_dropdown', null, null, true );
+        RegisterFlyout( 'footer_valve_pulldown', 'footer_valve_dropdown', null, null, true );
+        RegisterFlyout( 'footer_help_pulldown', 'footer_help_dropdown', null, null, true );
+        RegisterFlyout( 'footer_tools_pulldown', 'footer_tools_dropdown', null, null, true );
+        RegisterFlyout( 'footer_feeds_pulldown', 'footer_feeds_dropdown', null, null, true );
+      </script>
+    </div>
+    
+    <div class="footer_box">
+      <h3>Publisher Catalogs</h3>
+      <div class="publishercol">
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/1C Company?snr=1_44_44__24">1C Company</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/2K Games?snr=1_44_44__24">2K Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Activision?snr=1_44_44__24">Activision</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Akella?snr=1_44_44__24">Akella</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Atari?snr=1_44_44__24">Atari</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Bethesda Softworks?snr=1_44_44__24">Bethesda</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Big Fish Games?snr=1_44_44__24">Big Fish Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/bitComposer Games?snr=1_44_44__24">bitComposer Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Bohemia Interactive?snr=1_44_44__24">Bohemia Interactive</a></div>
+                        </div>
+          <div class="publishercol">
+                <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Capcom?snr=1_44_44__24">Capcom</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/City Interactive?snr=1_44_44__24">City Interactive</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Codemasters?snr=1_44_44__24">Codemasters</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Deep Silver?snr=1_44_44__24">Deep Silver</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Electronic Arts?snr=1_44_44__24">Electronic Arts</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Epic Games, Inc.?snr=1_44_44__24">Epic Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Focus Home Interactive?snr=1_44_44__24">Focus</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Funcom?snr=1_44_44__24">Funcom</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Her Interactive?snr=1_44_44__24">Her Interactive</a></div>
+                        </div>
+          <div class="publishercol">
+                <div class="ellipsis"><a href="http://store.steampowered.com/publisher/id Software?snr=1_44_44__24">id Software</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Interplay Inc.?snr=1_44_44__24">Interplay</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/iWin?snr=1_44_44__24">iWin</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Kalypso Media Digital?snr=1_44_44__24">Kalypso</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Konami Digital Entertainment, Inc.?snr=1_44_44__24">Konami</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/LucasArts?snr=1_44_44__24">LucasArts</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Meridian4?snr=1_44_44__24">Meridian4</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/MumboJumbo?snr=1_44_44__24">MumboJumbo</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Namco Bandai Games?snr=1_44_44__24">Namco Bandai Games</a></div>
+                        </div>
+          <div class="publishercol">
+                <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Nexon America Inc.?snr=1_44_44__24">Nexon</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Nordic Games?snr=1_44_44__24">Nordic Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/NovaLogic?snr=1_44_44__24">NovaLogic</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Paradox Interactive?snr=1_44_44__24">Paradox Interactive</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Perfect World Entertainment?snr=1_44_44__24">Perfect World Entertainment</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/PlayFirst?snr=1_44_44__24">PlayFirst</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/PopCap Games, Inc.?snr=1_44_44__24">PopCap</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Prima Games?snr=1_44_44__24">Prima Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/RailSimulator.com?snr=1_44_44__24">RailSimulator.com</a></div>
+                        </div>
+          <div class="publishercol">
+                <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Rockstar Games?snr=1_44_44__24">Rockstar Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Sandlot Games?snr=1_44_44__24">Sandlot Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/SEGA?snr=1_44_44__24">SEGA</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Sony Online Entertainment?snr=1_44_44__24">Sony Online</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/SouthPeak Games?snr=1_44_44__24">SouthPeak Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/SQUARE ENIX, Eidos Interactive?snr=1_44_44__24">SQUARE ENIX, Eidos Interactive</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Stardock Entertainment?snr=1_44_44__24">Stardock Entertainment</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Strategy First?snr=1_44_44__24">Strategy First</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Team17 Software Ltd.?snr=1_44_44__24">Team17 Software</a></div>
+                        </div>
+          <div class="publishercol">
+                <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Telltale Games?snr=1_44_44__24">Telltale Games</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/THQ?snr=1_44_44__24">THQ</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Tilted Mill Entertainment, Inc.?snr=1_44_44__24">Tilted Mill</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Topware Interactive?snr=1_44_44__24">Topware</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Ubisoft?snr=1_44_44__24">Ubisoft</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Valve?snr=1_44_44__24">Valve</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Viva Media?snr=1_44_44__24">Viva Media</a></div>
+                      <div class="ellipsis"><a href="http://store.steampowered.com/publisher/Warner Bros. Interactive Entertainment?snr=1_44_44__24">Warner Bros.</a></div>
+            </div>
+      <div style="clear: left;"></div>
+    </div>
+
+    <div class="btn_client_small get_game_on_steam">
+      <a href="http://steamcommunity.com/greenlight" target="_blank">Get your game on Steam</a>
+    </div>
+
+    <div>
+      <a href="http://www.valvesoftware.com/about.html" target="_blank">About Valve</a> 
+      | <a href="http://www.valvesoftware.com/business/" target="_blank">Business Solutions</a> 
+      | <a href="http://www.steampowered.com/steamworks/" target="_blank">Steamworks</a>
+      | <a href="http://source.valvesoftware.com/" target="_blank">Source Engine</a>
+      | <a href="https://cafe.steampowered.com" target="_blank">Cyber Caf&eacute;s</a> 
+      | <a href="http://www.valvesoftware.com/jobs.html" target="_blank">Jobs</a>
+    </div>
+
+
+    <div class="rule"></div>
+    <div id="footer_logo"><a href="http://www.valvesoftware.com" target="_blank"><img src="http://cdn.store.steampowered.com/public/images/logo_valve_footer.jpg" alt="Valve Software" border="0" /></a></div>
+    <div id="footer_text">
+      <div>&copy; 2013 Valve Corporation.  All rights reserved.  All trademarks are property of their respective owners in the US and other countries.</div>
+      <div>VAT included in all prices where applicable.</div>
+      <div class="valve_links">
+      <a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+              </div>
+    </div>
+  </div>
+</div><!-- End Footer -->
+  
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+---
+profile:
+  steamID64: '76561197992917668'
+  steamID: MrCheese
+  onlineState: online
+  stateMessage: Online
+  privacyState: public
+  visibilityState: '3'
+  avatarIcon: http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd.jpg
+  avatarMedium: http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd_medium.jpg
+  avatarFull: http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd_full.jpg
+  vacBanned: '0'
+  tradeBanState: None
+  isLimitedAccount: '0'
+  customURL: 
+  memberSince: September 26, 2007
+  steamRating: '10'
+  hoursPlayed2Wk: '45.1'
+  headline: 
+  location: Malmo, Skane Lan, Sweden
+  realname: 
+  summary: No information given.
+  mostPlayedGames:
+    mostPlayedGame:
+    - gameName: ! 'Dark Souls: Prepare to Die Edition'
+      gameLink: http://steamcommunity.com/app/211420
+      gameIcon: http://media.steampowered.com/steamcommunity/public/images/apps/211420/a24804c6c8412c8cd9d50efd06bf03fa58ff80a9.jpg
+      gameLogo: http://media.steampowered.com/steamcommunity/public/images/apps/211420/d293c8e38f56de2c7097b2c7a975caca49029a8b.jpg
+      gameLogoSmall: http://media.steampowered.com/steamcommunity/public/images/apps/211420/d293c8e38f56de2c7097b2c7a975caca49029a8b_thumb.jpg
+      hoursPlayed: '16.9'
+      hoursOnRecord: '16.9'
+    - gameName: The Walking Dead
+      gameLink: http://steamcommunity.com/app/207610
+      gameIcon: http://media.steampowered.com/steamcommunity/public/images/apps/207610/87a13ae0a2a76488792924aa8bb0dd8a7760f931.jpg
+      gameLogo: http://media.steampowered.com/steamcommunity/public/images/apps/207610/6d756726214dd97c54966814d58508b86d5eabcf.jpg
+      gameLogoSmall: http://media.steampowered.com/steamcommunity/public/images/apps/207610/6d756726214dd97c54966814d58508b86d5eabcf_thumb.jpg
+      hoursPlayed: '9.3'
+      hoursOnRecord: '9.3'
+      statsName: TheWalkingDead
+    - gameName: Anno 2070
+      gameLink: http://steamcommunity.com/app/48240
+      gameIcon: http://media.steampowered.com/steamcommunity/public/images/apps/48240/f2ea66880f8b78ef85afa7c6c256dcb41b2df845.jpg
+      gameLogo: http://media.steampowered.com/steamcommunity/public/images/apps/48240/96fa0d0f7d3a2cfbd46cfbb3ec266e4fbc9c9953.jpg
+      gameLogoSmall: http://media.steampowered.com/steamcommunity/public/images/apps/48240/96fa0d0f7d3a2cfbd46cfbb3ec266e4fbc9c9953_thumb.jpg
+      hoursPlayed: '3.4'
+      hoursOnRecord: '3.4'
+    - gameName: Shank 2
+      gameLink: http://steamcommunity.com/app/102840
+      gameIcon: http://media.steampowered.com/steamcommunity/public/images/apps/102840/6f916b594b1056789013a3e210cdc89a5245cd6d.jpg
+      gameLogo: http://media.steampowered.com/steamcommunity/public/images/apps/102840/eec11d103112f36876bd746854d6e8f130ea6078.jpg
+      gameLogoSmall: http://media.steampowered.com/steamcommunity/public/images/apps/102840/eec11d103112f36876bd746854d6e8f130ea6078_thumb.jpg
+      hoursPlayed: '3.3'
+      hoursOnRecord: '3.3'
+      statsName: '102840'
+    - gameName: Shank
+      gameLink: http://steamcommunity.com/app/6120
+      gameIcon: http://media.steampowered.com/steamcommunity/public/images/apps/6120/936571702a9ed84a6c267003b3f5b26df9ae830d.jpg
+      gameLogo: http://media.steampowered.com/steamcommunity/public/images/apps/6120/b5938715bdb8479a24b3fc6b5c74936d160a5878.jpg
+      gameLogoSmall: http://media.steampowered.com/steamcommunity/public/images/apps/6120/b5938715bdb8479a24b3fc6b5c74936d160a5878_thumb.jpg
+      hoursPlayed: '3.3'
+      hoursOnRecord: '3.3'
+      statsName: Shank
+    - gameName: ! 'Spec Ops: The Line'
+      gameLink: http://steamcommunity.com/app/50300
+      gameIcon: http://media.steampowered.com/steamcommunity/public/images/apps/50300/55ae859a90d61c08f18ed3aa0ee2579169d2c2bf.jpg
+      gameLogo: http://media.steampowered.com/steamcommunity/public/images/apps/50300/e449c7dc5a9861cf94476de1b394640f3866ddda.jpg
+      gameLogoSmall: http://media.steampowered.com/steamcommunity/public/images/apps/50300/e449c7dc5a9861cf94476de1b394640f3866ddda_thumb.jpg
+      hoursPlayed: '3.1'
+      hoursOnRecord: '5.4'
+      statsName: SpecOpsTheLine
+  weblinks: 
+  groups:
+    group:
+    - groupID64: '103582791429591238'
+      groupName: SnakeEyes
+      groupURL: snakeeyes
+      headline: The best of the worst of the fun.
+      summary: SnakeEyes is a widespanning gaming community not solely related to
+        WoW anymore. We now also trade in Battlecruisers (operational, pref.) and
+        various other 'hurt them before they hurt us' games. We pride ourselves with
+        twisted humor and gaming for the fun of it, rather than winning. Winning is
+        just part of the fun.
+      avatarIcon: http://media.steampowered.com/steamcommunity/public/images/avatars/3c/3ccb08451a455aa069daf72adc4d5f83fb908327.jpg
+      avatarMedium: http://media.steampowered.com/steamcommunity/public/images/avatars/3c/3ccb08451a455aa069daf72adc4d5f83fb908327_medium.jpg
+      avatarFull: http://media.steampowered.com/steamcommunity/public/images/avatars/3c/3ccb08451a455aa069daf72adc4d5f83fb908327_full.jpg
+      memberCount: '51'
+      membersInChat: '0'
+      membersInGame: '0'
+      membersOnline: '0'
+      isPrimary: '1'
+    - groupID64: '103582791432188903'
+      isPrimary: '0'
+    - groupID64: '103582791432706584'
+      isPrimary: '0'

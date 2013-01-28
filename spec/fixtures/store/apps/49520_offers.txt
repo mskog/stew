@@ -1,0 +1,111 @@
+<div  class="game_area_purchase_game">
+    <form name="add_to_cart_16724" action="http://store.steampowered.com/cart/" method="POST">
+      <input type="hidden" name="snr" value="1_5_9__403">
+      <input type="hidden" name="action" value="add_to_cart">
+      <input type="hidden" name="subid" value="16724">
+    </form>
+        <div class="game_area_purchase_platform"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_steamplay_only.png" width="72" height="22"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_win.png" width="22" height="22"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_mac.png" width="22" height="22"></div>
+    <h1>Buy Borderlands 2 </h1>
+        
+    
+    <div class="game_purchase_action" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <div class="game_purchase_action_bg">
+                                      <div class="game_purchase_price price"  itemprop="price">
+              49,99&#8364;            </div>
+                          <div class="btn_addtocart">
+          <div class="btn_addtocart_left"></div>
+           
+            <a class="btn_addtocart_content" href="javascript:addToCart( 16724);">Add to Cart</a>
+                    <div class="btn_addtocart_right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="game_area_purchase_game_wrapper">
+  <div  class="game_area_purchase_game">
+    <form name="add_to_cart_16726" action="http://store.steampowered.com/cart/" method="POST">
+      <input type="hidden" name="snr" value="1_5_9__403">
+      <input type="hidden" name="action" value="add_to_cart">
+      <input type="hidden" name="subid" value="16726">
+    </form>
+        <div class="game_area_purchase_platform"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_steamplay_only.png" width="72" height="22"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_win.png" width="22" height="22"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_mac.png" width="22" height="22"></div>
+    <h1>Buy Borderlands 2 - 4-Pack</h1>
+          <p>Includes four copies of Borderlands 2 - Send the extra copies to your friends</p>
+        
+    
+    <div class="game_purchase_action">
+            <div class="game_purchase_action_bg">
+                                      <div class="game_purchase_price price" >
+              149,99&#8364;             </div>
+                          <div class="btn_addtocart">
+          <div class="btn_addtocart_left"></div>
+           
+            <a class="btn_addtocart_content" href="javascript:addToCart( 16726);">Add to Cart</a>
+                    <div class="btn_addtocart_right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+      <h2 class="gradientbg">Guides for this game</h2>    <div class="game_area_purchase_game_wrapper">
+  <div  class="game_area_purchase_game">
+    <form name="add_to_cart_16843" action="http://store.steampowered.com/cart/" method="POST">
+      <input type="hidden" name="snr" value="1_5_9__game-purchase-guides">
+      <input type="hidden" name="action" value="add_to_cart">
+      <input type="hidden" name="subid" value="16843">
+    </form>
+        <div class="game_area_purchase_platform"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_win.png" width="22" height="22"></div>
+    <h1>Buy Borderlands 2 Official Brady Guide</h1>
+          <p>Visit the <a href="http://store.steampowered.com/app/101008/">Borderlands 2 Official Brady Guide</a> game page for details</p>
+        
+    
+    <div class="game_purchase_action">
+            <div class="game_purchase_action_bg">
+                                      <div class="game_purchase_price price" >
+              9,99&#8364;             </div>
+                          <div class="btn_addtocart">
+          <div class="btn_addtocart_left"></div>
+           
+            <a class="btn_addtocart_content" href="javascript:addToCart( 16843);">Add to Cart</a>
+                    <div class="btn_addtocart_right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="game_area_purchase_game_wrapper">
+  <div  class="game_area_purchase_game">
+    <form name="add_to_cart_16847" action="http://store.steampowered.com/cart/" method="POST">
+      <input type="hidden" name="snr" value="1_5_9__game-purchase-guides">
+      <input type="hidden" name="action" value="add_to_cart">
+      <input type="hidden" name="subid" value="16847">
+    </form>
+        <div class="game_area_purchase_platform"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_win.png" width="22" height="22"></div>
+    <h1>Buy Borderlands 2 + Official Brady Guide</h1>
+          <p class="package_contents">
+        <b>Includes 2 items:</b> 
+        Borderlands 2, Borderlands 2 Official Brady Guide     </p>
+        
+    
+    <div class="game_purchase_action">
+              <div class="game_purchase_action_bg">
+          <div class="btn_addtocart btn_packageinfo">
+            <div class="btn_addtocart_left"></div>
+            <a class="btn_addtocart_content" href="http://store.steampowered.com/sub/16847/?snr=1_5_9__game-purchase-guides">
+              Package info            </a> 
+            <div class="btn_addtocart_right"></div>
+          </div>
+        </div>
+            <div class="game_purchase_action_bg">
+                                      <div class="game_purchase_price price" >
+              54,99&#8364;            </div>
+                          <div class="btn_addtocart">
+          <div class="btn_addtocart_left"></div>
+           
+            <a class="btn_addtocart_content" href="javascript:addToCart( 16847);">Add to Cart</a>
+                    <div class="btn_addtocart_right"></div>
+        </div>
+      </div>
+    </div>
+  </div>

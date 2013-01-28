@@ -1,0 +1,122 @@
+HTTP/1.1 200 OK
+Server: Apache
+Set-Cookie: sessionid=NjI4NjkwOTQy; path=/
+Set-Cookie: Steam_Language=english; expires=Mon, 08-Jan-2018 19:19:26 GMT; path=/
+Expires: Wed, 09 Jan 2013 20:19:26 GMT
+Content-Type: text/xml; charset=utf-8
+Content-Length: 7251
+Date: Wed, 09 Jan 2013 19:19:28 GMT
+X-Varnish: 3352739601
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><profile>
+	<steamID64>76561197992917668</steamID64>
+	<steamID><![CDATA[MrCheese]]></steamID>
+	<onlineState>online</onlineState>
+	<stateMessage><![CDATA[Online]]></stateMessage>
+	<privacyState>public</privacyState>
+	<visibilityState>3</visibilityState>
+	<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd.jpg]]></avatarIcon>
+	<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd_medium.jpg]]></avatarMedium>
+	<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd_full.jpg]]></avatarFull>
+	<vacBanned>0</vacBanned>
+	<tradeBanState>None</tradeBanState>
+	<isLimitedAccount>0</isLimitedAccount>
+	<customURL><![CDATA[]]></customURL>
+	<memberSince>September 26, 2007</memberSince>
+	<steamRating>10</steamRating>
+	<hoursPlayed2Wk>45.1</hoursPlayed2Wk>
+	<headline><![CDATA[]]></headline>
+	<location><![CDATA[Malmo, Skane Lan, Sweden]]></location>
+	<realname><![CDATA[]]></realname>
+	<summary><![CDATA[No information given.]]></summary>
+ 	<mostPlayedGames>
+		<mostPlayedGame>
+			<gameName><![CDATA[Dark Souls: Prepare to Die Edition]]></gameName>
+			<gameLink><![CDATA[http://steamcommunity.com/app/211420]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/211420/a24804c6c8412c8cd9d50efd06bf03fa58ff80a9.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/211420/d293c8e38f56de2c7097b2c7a975caca49029a8b.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/211420/d293c8e38f56de2c7097b2c7a975caca49029a8b_thumb.jpg]]></gameLogoSmall>
+			<hoursPlayed>16.9</hoursPlayed>
+			<hoursOnRecord>16.9</hoursOnRecord>
+		</mostPlayedGame>
+		<mostPlayedGame>
+			<gameName><![CDATA[The Walking Dead]]></gameName>
+			<gameLink><![CDATA[http://steamcommunity.com/app/207610]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/207610/87a13ae0a2a76488792924aa8bb0dd8a7760f931.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/207610/6d756726214dd97c54966814d58508b86d5eabcf.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/207610/6d756726214dd97c54966814d58508b86d5eabcf_thumb.jpg]]></gameLogoSmall>
+			<hoursPlayed>9.3</hoursPlayed>
+			<hoursOnRecord>9.3</hoursOnRecord>
+			<statsName><![CDATA[TheWalkingDead]]></statsName>
+		</mostPlayedGame>
+		<mostPlayedGame>
+			<gameName><![CDATA[Anno 2070]]></gameName>
+			<gameLink><![CDATA[http://steamcommunity.com/app/48240]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/48240/f2ea66880f8b78ef85afa7c6c256dcb41b2df845.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/48240/96fa0d0f7d3a2cfbd46cfbb3ec266e4fbc9c9953.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/48240/96fa0d0f7d3a2cfbd46cfbb3ec266e4fbc9c9953_thumb.jpg]]></gameLogoSmall>
+			<hoursPlayed>3.4</hoursPlayed>
+			<hoursOnRecord>3.4</hoursOnRecord>
+		</mostPlayedGame>
+		<mostPlayedGame>
+			<gameName><![CDATA[Shank 2]]></gameName>
+			<gameLink><![CDATA[http://steamcommunity.com/app/102840]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/102840/6f916b594b1056789013a3e210cdc89a5245cd6d.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/102840/eec11d103112f36876bd746854d6e8f130ea6078.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/102840/eec11d103112f36876bd746854d6e8f130ea6078_thumb.jpg]]></gameLogoSmall>
+			<hoursPlayed>3.3</hoursPlayed>
+			<hoursOnRecord>3.3</hoursOnRecord>
+			<statsName><![CDATA[102840]]></statsName>
+		</mostPlayedGame>
+		<mostPlayedGame>
+			<gameName><![CDATA[Shank]]></gameName>
+			<gameLink><![CDATA[http://steamcommunity.com/app/6120]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/6120/936571702a9ed84a6c267003b3f5b26df9ae830d.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/6120/b5938715bdb8479a24b3fc6b5c74936d160a5878.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/6120/b5938715bdb8479a24b3fc6b5c74936d160a5878_thumb.jpg]]></gameLogoSmall>
+			<hoursPlayed>3.3</hoursPlayed>
+			<hoursOnRecord>3.3</hoursOnRecord>
+			<statsName><![CDATA[Shank]]></statsName>
+		</mostPlayedGame>
+		<mostPlayedGame>
+			<gameName><![CDATA[Spec Ops: The Line]]></gameName>
+			<gameLink><![CDATA[http://steamcommunity.com/app/50300]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/50300/55ae859a90d61c08f18ed3aa0ee2579169d2c2bf.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/50300/e449c7dc5a9861cf94476de1b394640f3866ddda.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/50300/e449c7dc5a9861cf94476de1b394640f3866ddda_thumb.jpg]]></gameLogoSmall>
+			<hoursPlayed>3.1</hoursPlayed>
+			<hoursOnRecord>5.4</hoursOnRecord>
+			<statsName><![CDATA[SpecOpsTheLine]]></statsName>
+		</mostPlayedGame>
+	</mostPlayedGames>
+
+
+	<weblinks>
+	</weblinks>
+
+	<groups>
+		<group isPrimary="1">
+			<groupID64>103582791429591238</groupID64>
+			<groupName><![CDATA[SnakeEyes]]></groupName>
+			<groupURL><![CDATA[snakeeyes]]></groupURL>
+			<headline><![CDATA[The best of the worst of the fun.]]></headline>
+			<summary><![CDATA[SnakeEyes is a widespanning gaming community not solely related to WoW anymore. We now also trade in Battlecruisers (operational, pref.) and various other 'hurt them before they hurt us' games. We pride ourselves with twisted humor and gaming for the fun of it, rather than winning. Winning is just part of the fun.]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/3c/3ccb08451a455aa069daf72adc4d5f83fb908327.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/3c/3ccb08451a455aa069daf72adc4d5f83fb908327_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/3c/3ccb08451a455aa069daf72adc4d5f83fb908327_full.jpg]]></avatarFull>
+			<memberCount>51</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>0</membersInGame>
+			<membersOnline>0</membersOnline>
+		</group>
+				<group isPrimary="0">
+					<groupID64>103582791432188903</groupID64>
+				</group>
+							<group isPrimary="0">
+					<groupID64>103582791432706584</groupID64>
+				</group>
+				</groups>
+</profile>
