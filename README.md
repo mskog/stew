@@ -1,29 +1,6 @@
 # Stew
 
-TODO: Write a gem description
+##Information
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'stew'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install stew
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+In constant development. Can and will completely break between updates. Do not use for anything serious.
+Will be released as a gem the second it is ready
