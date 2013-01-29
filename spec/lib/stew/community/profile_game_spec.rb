@@ -26,12 +26,12 @@ describe "Stew::Community::ProfileGame" do
       @profile_game.store_link.should eq "http://steamcommunity.com/app/211420"
     end
 
-    it "sets the minutes_last_2_weeks" do
-      @profile_game.minutes_last_2_weeks.should eq 1013
+    it "sets the hours_last_2_weeks" do
+      @profile_game.hours_last_2_weeks.should eq 16.9
     end
 
-    it "sets the minutes_total" do
-      @profile_game.minutes_total.should eq 1013
+    it "sets the hours_on_record" do
+      @profile_game.hours_on_record.should eq 16.9
     end
   end
 

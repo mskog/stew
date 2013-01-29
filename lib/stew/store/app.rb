@@ -1,21 +1,8 @@
 module Stew
   module Store
     class App
-
-      attr_reader :id
-
-      def self.create(data)
-        return self.new(data) if data.class == Fixnum
-        return self.new($1,{:region => $2}) if data =~ /store.steampowered.com\/app\/([0-9]+)\/?\?cc=([a-zA-Z]{2})/
-        return self.new($1) if data =~ /store.steampowered.com\/app\/([0-9]+)/
-        raise AppIdNotFoundError
-      end
-
-      def initialize(app_id, opts={})
-        @id = app_id.to_i
-        region = opts[:region] || Stew.config[:default_region]
-        @client = opts[:client] || Stew.config[:default_store_client].new(region)
-        @document = Nokogiri::HTML(@client.app(@id))
+      def initialize(response)
+        @document = Nokogiri::HTML(response)
       end
 
       def score
@@ -77,7 +64,5 @@ module Stew
       end
 
     end
-
-    class AppIdNotFoundError < StandardError; end
   end
 end

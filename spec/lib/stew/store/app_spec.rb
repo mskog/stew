@@ -3,66 +3,12 @@
 require 'spec_helper'
 
 describe Stew::Store::App do
+  let(:id){211420}
   let(:response){open("spec/fixtures/store/apps/#{id}.txt")}
-  let(:region){:us}
-  let(:store_client) do
-    client = double("store_client")
-    client.stub(:app).with(id).and_return(response)
-    client
-  end
 
-  subject{Stew::Store::App.new(id, {:region => :us, :client => store_client})}
-
-  describe "#create" do
-    let(:id){211420}
-
-    context "when given an integer" do
-      it "creates a steam_id with the given integer as id" do
-        Stew::Store::App.should_receive(:new).with(id)
-        Stew::Store::App.create(id)
-      end
-    end
-
-    context "when given a url with a region" do
-      let(:url){"http://store.steampowered.com/app/#{id}/?cc=#{region}"}
-
-      it "creates an app" do
-        Stew::Store::App.should_receive(:new).with(id.to_s, {:region => region.to_s})
-        Stew::Store::App.create(url)
-      end
-    end
-
-    context "when given a url without a region" do
-      let(:url){"http://store.steampowered.com/app/#{id}"}
-
-      it "creates an app" do
-        Stew::Store::App.should_receive(:new).with(id.to_s)
-        Stew::Store::App.create(url)
-      end
-    end
-
-    context "when the given parameter cannot be matched" do
-      let(:url){"sodijfsdf"}
-
-      it "raises a Stew::Store::AppIdNotFoundError" do
-        expect{Stew::Store::App.create(url)}.to raise_error(Stew::Store::AppIdNotFoundError)
-      end
-    end
-  end
-
-
-  describe ".initialize" do
-    let(:id){211420}
-
-    it "creates a store client with the correct region if none is given" do
-      Stew::StoreClient.should_receive(:new).with(:uk).and_return(store_client)
-      app = Stew::Store::App.new(id, {:region => :uk})
-    end
-  end
+  subject{Stew::Store::App.new(response)}
 
   describe "attributes" do
-    let(:id){211420}
-
     describe ".name" do
       it "sets the name" do
         subject.name.should eq "Dark Souls™: Prepare To Die™ Edition"
@@ -80,8 +26,7 @@ describe Stew::Store::App do
         let(:id){2290}
 
         it "sets the store to nil" do
-          app = Stew::Store::App.new(id, {:client => store_client})
-          app.score.should be_nil
+          subject.score.should be_nil
         end
       end
     end

@@ -11,17 +11,17 @@ module Stew
 
       attr_reader :store_link
 
-      attr_reader :minutes_last_2_weeks
+      attr_reader :hours_last_2_weeks
 
-      attr_reader :minutes_total
+      attr_reader :hours_on_record
 
       def initialize(hash)
         @app_id = hash['appID'].to_i
         @name = hash['name']
         @logo = hash['logo']
         @store_link = hash['storeLink']
-        @minutes_last_2_weeks = (hash['hoursLast2Weeks'].to_f*60).to_i
-        @minutes_total = (hash['hoursOnRecord'].to_f*60).to_i
+        @hours_last_2_weeks = hash['hoursLast2Weeks'].to_f
+        @hours_on_record = hash['hoursOnRecord'].to_f
       end
 
       def app

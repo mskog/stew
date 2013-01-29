@@ -3,8 +3,12 @@
 require 'spec_helper'
 
 describe "Store", :vcr do
+
+  let(:store_client){Stew::StoreClient.new}
+  subject{store_client.app(id)}
+
   describe "Creation of a store app with data" do
-    subject{Stew::Store::App.new(211420)}
+    let(:id){211420}
 
     it "sets the name" do
       subject.name.should eq "Dark Souls™: Prepare To Die™ Edition"
@@ -40,7 +44,9 @@ describe "Store", :vcr do
   end
 
   describe "Creation of a store DLC app with data" do
-    subject{Stew::Store::App.new(16870)}
+    let(:id){16870}
+
+    subject{store_client.app(id)}
 
     it "sets dlc flag" do
       subject.dlc?.should be_true
@@ -48,7 +54,8 @@ describe "Store", :vcr do
   end
 
   describe "Creation of a store App with multiple offers" do
-    subject{Stew::Store::App.new(49520)}
+    let(:id){49520}
+    subject{store_client.app(id)}
 
     it "has multiple offers" do
       subject.offers.size.should > 1
@@ -92,7 +99,7 @@ describe "Store", :vcr do
   end
 
   describe "Creation of a UK store app" do
-    subject{Stew::Store::App.new(49520, {:region => :uk})}
+    subject{store_client.app(49520, :uk)}
 
     it "sets the correct price" do
       subject.price.currency.should eq Money::Currency.new 'GBP'
@@ -100,20 +107,10 @@ describe "Store", :vcr do
   end
 
   describe "Creation of a EU1 store app" do
-    subject{Stew::Store::App.new(49520, {:region => :se})}
+    subject{store_client.app(49520, :se)}
 
     it "sets the correct currency" do
       subject.price.currency.should eq Money::Currency.new 'EUR'
-    end
-  end
-
-  describe "Creation of a steam app from a URL" do
-    let(:id){49520}
-    let(:region){:se}
-    let(:url){"http://store.steampowered.com/app/#{id}/?cc=#{region}"}
-
-    it "creates the app" do
-      Stew::Store::App.create(url).id.should eq id
     end
   end
 end
