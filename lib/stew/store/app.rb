@@ -10,11 +10,12 @@ module Stew
       end
 
       def name
-        @document.at_css("div.apphub_AppName").content
+        App.content_or_nil @document.at_css("div.apphub_AppName")
       end
 
       def release_date
-        Date.parse @document.at_xpath("//b[.='Release Date:']").next.content
+        node = @document.at_xpath("//b[.='Release Date:']")
+        node.nil? ? nil : Date.parse(node.next.content)
       end
 
       def dlc
@@ -26,11 +27,11 @@ module Stew
       end
 
       def developer
-        @document.at_xpath("//a[contains(@href, 'developer')]").content
+        App.content_or_nil @document.at_xpath("//a[contains(@href, 'developer')]")
       end
 
       def publisher
-        @document.at_xpath("//a[contains(@href, 'publisher')]").content
+        App.content_or_nil @document.at_xpath("//a[contains(@href, 'publisher')]")
       end
 
       def price
@@ -54,6 +55,10 @@ module Stew
       end
 
       private
+
+      def self.content_or_nil(item)
+        item.nil? ? nil : item.content
+      end
 
       def score_section
         @document.xpath("//div[@id='game_area_metascore']")
