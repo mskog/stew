@@ -3,19 +3,12 @@ module Stew
     class ProfileFriends
       include Enumerable
 
-      def initialize(id,opts={})
-        @id = id
-        @client = opts[:client] || Stew.config[:default_community_client].new
+      def initialize(data)
+        @friends = data.map {|friend| SteamId.new(friend)}
       end
 
       def each(&block)
-        friends.each(&block)
-      end
-
-      private
-
-      def friends
-        @friends ||= @client.profile_friends(@id).map{|friend| SteamId.new(friend)}
+        @friends.each(&block)
       end
     end
   end

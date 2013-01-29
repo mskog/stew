@@ -12,15 +12,15 @@ module Stew
     end
 
     def profile(id)
-      @xml_client.get("/#{@base_path}/#{id}")['profile']
+      Community::Profile.new @xml_client.get("/#{@base_path}/#{id}")['profile']
     end
 
     def profile_games(id)
-      @xml_client.get("/#{@base_path}/#{id}/games")['gamesList']['games']['game']
+      Community::ProfileGames.new @xml_client.get("/#{@base_path}/#{id}/games")['gamesList']['games']['game']
     end
 
     def profile_friends(id)
-      @xml_client.get("/#{@base_path}/#{id}/friends")['friendsList']['friends']['friend']
+      Community::ProfileFriends.new @xml_client.get("/#{@base_path}/#{id}/friends")['friendsList']['friends']['friend']
     end
   end
 end

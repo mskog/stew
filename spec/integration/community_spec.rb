@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe "Community", :vcr do
-  describe "Creation of a steam id with data" do
-    subject{Stew::Community::SteamId.new(76561197992917668)}
+  describe "Creation of a steam profile with data" do
+    subject{Stew::Community::SteamId.create(76561197992917668)}
 
     describe "profile" do
       it "sets the nickname" do
@@ -17,8 +17,8 @@ describe "Community", :vcr do
     end
 
     describe "friends" do
-      it "adds friends" do
-        subject.friends.collect(&:id).include?(76561198005505133.to_s).should be_true
+      it "creates friends" do
+        subject.friends.collect(&:id).include?(76561197972211787.to_s).should be_true
       end
     end
   end
@@ -33,8 +33,8 @@ describe "Community", :vcr do
 
   describe "Creation of a steam id that has a set vanity url" do
     it "properly follows redirects and parses the data" do
-      steam_id = Stew::Community::SteamId.new(76561197960889223)
-      steam_id.profile.id.should eq 76561197960889223
+      profile = Stew::Community::SteamId.create(76561197960889223)
+      profile.id.should eq 76561197960889223
     end
   end
 

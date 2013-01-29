@@ -3,19 +3,12 @@ module Stew
     class ProfileGames
       include Enumerable
 
-      def initialize(profile_id, opts = {})
-        @id = profile_id
-        @client = opts[:client] || Stew.config[:default_community_client].new
+      def initialize(data)
+        @games = Array.new(data.map{|game| ProfileGame.new(game)})
       end
 
       def each(&block)
-        games.each(&block)
-      end
-
-      private
-
-      def games
-        @games ||= Array.new(@client.profile_games(@id)).map{|game| ProfileGame.new(game)}
+        @games.each(&block)
       end
     end
   end

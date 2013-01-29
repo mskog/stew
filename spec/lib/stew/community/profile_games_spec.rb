@@ -4,13 +4,7 @@ describe "Stew::Community::ProfileGames" do
   let(:id){76561197992917668}
   let(:response){YAML.load_file('spec/fixtures/profiles/games/76561197992917668.yml')['gamesList']['games']['game']}
 
-  let(:community_client) do
-    client = double("community_client")
-    client.stub(:profile_games).with(id).and_return(response)
-    client
-  end
-
-  let(:subject){Stew::Community::ProfileGames.new(id, {:client => community_client})}
+  let(:subject){Stew::Community::ProfileGames.new(response)}
 
   describe ".entries" do
     it "sets the games" do

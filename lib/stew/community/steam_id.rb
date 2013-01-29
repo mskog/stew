@@ -17,15 +17,15 @@ module Stew
       end
 
       def profile
-        @profile ||= Profile.new(@id, {:client => @client})
+        @profile ||= @client.profile @id
       end
 
       def games
-        @games ||= ProfileGames.new(@id, {:client => @client})
+        @games ||= @client.profile_games @id
       end
 
       def friends
-        @friends ||= ProfileFriends.new(@id, {:client => @client})
+        @friends ||= @client.profile_friends @id
       end
 
       private

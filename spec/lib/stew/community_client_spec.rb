@@ -49,9 +49,10 @@ describe "Stew::CommunityClient" do
       subject.profile(id)
     end
 
-    it "returns the value of the 'profile' key from the response hash" do
-      client.should_receive(:get).with("/profiles/#{id}").and_return(response)
-      subject.profile(id).should eq response['profile']
+    it "creates a profile object" do
+      client.stub(:get).with("/profiles/#{id}").and_return(response)
+      Stew::Community::Profile.should_receive(:new).with(response['profile'])
+      subject.profile(id)
     end
   end
 
@@ -63,9 +64,10 @@ describe "Stew::CommunityClient" do
       subject.profile_games(id)
     end
 
-    it "returns the value of the ['gamesList']['games']['game'] key from the response hash" do
-      client.should_receive(:get).with("/profiles/#{id}/games").and_return(response)
-      subject.profile_games(id).should eq response['gamesList']['games']['game']
+    it "creates a ProfileGames object" do
+      client.stub(:get).with("/profiles/#{id}/games").and_return(response)
+      Stew::Community::ProfileGames.should_receive(:new).with(response['gamesList']['games']['game'])
+      subject.profile_games(id)
     end
   end
 
@@ -78,8 +80,9 @@ describe "Stew::CommunityClient" do
     end
 
     it "returns the value of the ['friendsList']['friends']['friend'] key from the response hash" do
-      client.should_receive(:get).with("/profiles/#{id}/friends").and_return(response)
-      subject.profile_friends(id).should eq response['friendsList']['friends']['friend']
+      client.stub(:get).with("/profiles/#{id}/friends").and_return(response)
+      Stew::Community::ProfileFriends.should_receive(:new).with(response['friendsList']['friends']['friend'])
+      subject.profile_friends(id)
     end
   end
 end

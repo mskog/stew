@@ -1,26 +1,21 @@
 module Stew
   module Community
     class Profile
-      include FetchableAttributes
 
-      attr_reader_fetchable :id
+      attr_reader :id
 
-      attr_reader_fetchable :id64
+      attr_reader :id64
 
-      attr_reader_fetchable :nickname
+      attr_reader :nickname
 
-      def initialize(id, opts = {})
-        @id = id
-        @client = opts[:client] || Stew.config[:default_community_client].new
+      def initialize(hash)
+        set_data(hash)
       end
 
       private
 
-      def fetch
-        set_data(@client.profile(id))
-      end
-
       def set_data(data)
+        @id = data['steamID64'].to_i
         @id64 = data['steamID64']
         @nickname = data['steamID']
       end

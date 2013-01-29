@@ -3,13 +3,8 @@ require 'spec_helper'
 describe "Stew::Community::Profile" do
   let(:id){76561197992917668}
   let(:response){YAML.load_file('spec/fixtures/profiles/76561197992917668.yml')['profile']}
-  let(:community_client) do
-    client = double("community_client")
-    client.stub(:profile).with(id).and_return(response)
-    client
-  end
   
-  subject{Stew::Community::Profile.new(id,{:client => community_client})}
+  subject{Stew::Community::Profile.new(response)}
 
   describe "attributes" do
     it "sets the id" do

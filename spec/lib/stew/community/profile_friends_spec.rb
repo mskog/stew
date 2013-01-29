@@ -3,13 +3,8 @@ require 'spec_helper'
 describe "Stew::Community::ProfileFriends" do
   let(:id){76561197992917668}
   let(:response){YAML.load_file('spec/fixtures/profiles/friends/76561197992917668.yml')['friendsList']['friends']['friend']}
-  let(:community_client) do
-    client = double("community_client")
-    client.stub(:profile_friends).with(id).and_return(response)
-    client
-  end
 
-  let(:subject){Stew::Community::ProfileFriends.new(id, {:client => community_client})}
+  let(:subject){Stew::Community::ProfileFriends.new(response)}
 
   describe ".entries" do
     it "sets the friends" do
@@ -21,7 +16,7 @@ describe "Stew::Community::ProfileFriends" do
   end
 
   describe ".each" do
-    let(:subject){Stew::Community::ProfileFriends.any_instance.stub(:fetch);Stew::Community::ProfileFriends.new(12345)}
+    let(:subject){Stew::Community::ProfileFriends.new(response)}
 
     it "invokes the given block for each object returned by the friends method" do
       friend1 = double(:name => 'Half-Life 2')

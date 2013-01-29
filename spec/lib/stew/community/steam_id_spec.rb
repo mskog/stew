@@ -76,45 +76,39 @@ describe "Stew::Community::SteamId" do
   end
 
   describe ".profile" do
-    it "returns a Stew::Community::Profile" do
-      profile = double('profile')
-      Stew::Community::Profile.should_receive(:new).with(id,{:client => community_client}).and_return(profile)
-      subject.profile.should eq profile
+    it "calls profile on the community_client" do
+      community_client.should_receive(:profile).with(id)
+      subject.profile
     end
 
-    it "only calls Steam:.Community::Profile.new once" do
-      profile = double('profile')
-      Stew::Community::Profile.should_receive(:new).with(id,{:client => community_client}).once.and_return(profile)
+    it "only calls profile on the community_client once" do
+      community_client.should_receive(:profile).with(id).once.and_return(double('profile'))
       subject.profile
       subject.profile
     end
   end
 
   describe ".games" do
-    it "returns a Stew::Community::ProfileGames" do
-      profile_games = double('profile_games')
-      Stew::Community::ProfileGames.should_receive(:new).with(id,{:client => community_client}).and_return(profile_games)
-      subject.games.should eq profile_games
+    it "calls profile_games on the community_client" do
+      community_client.should_receive(:profile_games).with(id)
+      subject.games
     end
 
-    it "only calls Steam:.Community::ProfileFriends.new once" do
-      profile_games = double('profile_games')
-      Stew::Community::ProfileGames.should_receive(:new).with(id,{:client => community_client}).once.and_return(profile_games)
+    it "only calls games on the community_client once" do
+      community_client.should_receive(:profile_games).with(id).once.and_return(double('profile_games'))
       subject.games
       subject.games
     end
   end
 
   describe ".friends" do
-    it "returns a Stew::Community::ProfileFriends" do
-      profile_friends = double('profile_friends')
-      Stew::Community::ProfileFriends.should_receive(:new).with(id,{:client => community_client}).and_return(profile_friends)
-      subject.friends.should eq profile_friends
+    it "calls profile_friends on the community_client" do
+      community_client.should_receive(:profile_friends).with(id)
+      subject.friends
     end
 
-    it "only calls Steam:.Community::ProfileFriends.new once" do
-      profile_friends = double('profile_friends')
-      Stew::Community::ProfileFriends.should_receive(:new).with(id,{:client => community_client}).once.and_return(profile_friends)
+    it "only calls friends on the community_client once" do
+      community_client.should_receive(:profile_friends).with(id).once.and_return(double('profile_friends'))
       subject.friends
       subject.friends
     end

@@ -6,8 +6,6 @@ require 'money'
 
 require "stew/version"
 
-require 'stew/fetchable_attributes'
-
 require 'stew/web_client'
 require 'stew/xml_client'
 require 'stew/community_client'
