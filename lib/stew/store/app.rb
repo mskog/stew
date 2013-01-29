@@ -10,11 +10,11 @@ module Stew
       end
 
       def name
-        @document.css("div.apphub_AppName")[0].content
+        @document.at_css("div.apphub_AppName").content
       end
 
       def release_date
-        Date.parse @document.xpath("//b[.='Release Date:']")[0].next.content
+        Date.parse @document.at_xpath("//b[.='Release Date:']").next.content
       end
 
       def dlc
@@ -26,15 +26,15 @@ module Stew
       end
 
       def developer
-        @document.xpath("//a[contains(@href, 'developer')]")[0].content
+        @document.at_xpath("//a[contains(@href, 'developer')]").content
       end
 
       def publisher
-        @document.xpath("//a[contains(@href, 'publisher')]")[0].content
+        @document.at_xpath("//a[contains(@href, 'publisher')]").content
       end
 
       def price
-        @document.css("div.game_purchase_price").first.content.gsub(/[\n\t\r\s]/, '')
+        @document.at_css("div.game_purchase_price").content.gsub(/[\n\t\r\s]/, '')
       end
 
       def offers

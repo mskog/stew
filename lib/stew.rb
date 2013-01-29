@@ -25,6 +25,7 @@ module Stew
     :default_community_client => CommunityClient,
     :default_store_client => StoreClient,
     :default_xml_client => XmlClient,
+    :default_web_client => WebClient,
     :default_region => :us
   }
 

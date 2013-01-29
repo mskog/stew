@@ -34,24 +34,4 @@ describe "Stew::Community::ProfileGame" do
       @profile_game.hours_on_record.should eq 16.9
     end
   end
-
-  describe ".app" do
-    let(:id){211420}
-    let(:subject){
-      data = YAML.load_file('spec/fixtures/profiles/games/76561197992917668.yml')
-      Stew::Community::ProfileGame.new(data['gamesList']['games']['game'].first)
-    }
-
-    it "returns an instance of Stew::Store::App" do
-      app = double('profile', :class => Stew::Store::App)
-      Stew::Store::App.should_receive(:new).with(id).and_return(app)
-      subject.app.class.should eq Stew::Store::App
-    end
-
-    it "has the same id as the ProfileGame" do
-      app = double('profile', :id => 211420)
-      Stew::Store::App.should_receive(:new).with(id).and_return(app)
-      subject.app.id.should eq 211420
-    end
-  end
 end

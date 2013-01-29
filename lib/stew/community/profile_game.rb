@@ -3,8 +3,6 @@ module Stew
     class ProfileGame
       attr_reader :app_id
 
-      attr_reader :app
-
       attr_reader :name
 
       attr_reader :logo
@@ -22,10 +20,6 @@ module Stew
         @store_link = hash['storeLink']
         @hours_last_2_weeks = hash['hoursLast2Weeks'].to_f
         @hours_on_record = hash['hoursOnRecord'].to_f
-      end
-
-      def app
-        @app ||= Stew::Store::App.new(@app_id)
       end
     end
   end

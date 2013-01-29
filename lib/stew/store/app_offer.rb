@@ -16,15 +16,15 @@ module Stew
       end
 
       def description
-        description_empty? ? nil : @node.css('p').first.content
+        description_empty? ? nil : @node.at_css('p').content
       end
 
       def name
-        @node.css('h1').first.content.strip.gsub('Buy ','')
+        @node.at_css('h1').content.strip.gsub('Buy ','')
       end
 
       def price
-        self.class.money @node.css('div.game_purchase_price').first.content.gsub(/[\n\t\r\s]/, '')
+        self.class.money @node.at_css('div.game_purchase_price').content.gsub(/[\n\t\r\s]/, '')
       end
 
       def description_empty?

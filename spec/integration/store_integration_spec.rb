@@ -113,4 +113,17 @@ describe "Store", :vcr do
       subject.price.currency.should eq Money::Currency.new 'EUR'
     end
   end
+
+  describe "Creation of an app from a url" do
+    let(:url){"http://store.steampowered.com/app/205100/?cc=uk"}
+    subject{store_client.create_app(url)}
+
+    it "has the correct currency" do
+      subject.price.currency.should eq Money::Currency.new 'GBP'
+    end
+
+    it "has the correct name" do
+      subject.name.should eq 'Dishonored'
+    end
+  end
 end
