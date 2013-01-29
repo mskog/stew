@@ -25,7 +25,7 @@ describe "Stew::CommunityClient" do
       let(:response){YAML.load_file("spec/fixtures/profiles/#{id}.yml")}
 
       it "should perform requests to the 'profile'" do
-        client.should_receive(:get).with("/profiles/#{id}").and_return(response)
+        client.should_receive(:get).with("/profiles/#{id}/").and_return(response)
         subject.profile(id)
       end
     end
@@ -35,7 +35,7 @@ describe "Stew::CommunityClient" do
       subject{Stew::CommunityClient.new({:client => client, :base_path => 'id'})}
 
       it "should perform profile-requests to the 'id'" do
-        client.should_receive(:get).with("/id/#{id}").and_return(response)
+        client.should_receive(:get).with("/id/#{id}/").and_return(response)
         subject.profile(id)
       end
     end
@@ -45,12 +45,12 @@ describe "Stew::CommunityClient" do
     let(:response){YAML.load_file("spec/fixtures/profiles/#{id}.yml")}
 
     it "sends the correct message to its client" do
-      client.should_receive(:get).with("/profiles/#{id}").and_return(response)
+      client.should_receive(:get).with("/profiles/#{id}/").and_return(response)
       subject.profile(id)
     end
 
     it "creates a profile object" do
-      client.stub(:get).with("/profiles/#{id}").and_return(response)
+      client.stub(:get).with("/profiles/#{id}/").and_return(response)
       Stew::Community::Profile.should_receive(:new).with(response['profile'])
       subject.profile(id)
     end
