@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'faraday'
 require 'faraday_middleware'
 require 'yaml'
@@ -18,9 +20,12 @@ require 'stew/community/profile_game'
 require 'stew/community/profile_games'
 
 require 'stew/store/app'
+require 'stew/store/offer'
 require 'stew/store/app_offer'
 
 module Stew
+  Money.assume_from_symbol = true
+  
   @config = {
     :default_community_client => CommunityClient,
     :default_store_client => StoreClient,
@@ -39,7 +44,12 @@ module Stew
     @config
   end
 
+  def self.money(price)
+    if price.include?("€")
+      Money.parse(price[-1,1]+price[0..-2])
+    else
+      Money.parse price
+    end
+  end
   class StewError < StandardError; end
 end
-
-Money.assume_from_symbol = true
