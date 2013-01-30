@@ -89,6 +89,12 @@ describe Stew::Store::App do
         end
       end
 
+      describe ".free?" do
+        it "returns true if the the app is free" do
+          subject.free?.should be_false
+        end
+      end
+
       describe "offers" do
         it "has the correct offers" do
           subject.offers.first.name.should eq 'Dark Souls™: Prepare To Die™ Edition'
@@ -118,6 +124,24 @@ describe Stew::Store::App do
       describe ".genres" do
         it "should return an empty array" do
           subject.genres.should eq []
+        end
+      end
+
+      describe ".dlc?" do
+        it "should be nil" do
+          subject.dlc?.should be_nil
+        end
+      end
+
+      describe ".indie" do
+        it "should be false" do
+          subject.indie?.should be_false
+        end
+      end
+
+      describe ".price" do
+        it "should be nil" do
+          subject.price.should be_nil
         end
       end
     end

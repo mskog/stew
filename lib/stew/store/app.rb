@@ -6,7 +6,7 @@ module Stew
       end
 
       def score
-        score_section[0].nil? ? nil : score_from_score_section
+        score_section[0] && score_from_score_section
       end
 
       def name
@@ -15,11 +15,7 @@ module Stew
 
       def release_date
         node = @document.at_xpath("//b[.='Release Date:']")
-        node.nil? ? nil : Date.parse(node.next.content)
-      end
-
-      def dlc
-        !@document.css("div.game_area_dlc_bubble").empty?
+        node && Date.parse(node.next.content)
       end
 
       def genres
@@ -43,7 +39,7 @@ module Stew
       end
 
       def dlc?
-        dlc
+        @document.at_css("div.game_area_dlc_bubble")
       end
 
       def indie?
@@ -51,13 +47,22 @@ module Stew
       end
 
       def price
-        offers.first.price
+        return nil if offers.empty?
+        first_offer_price
+      end
+
+      def free?
+        offers.empty?
       end
 
       private
 
+      def first_offer_price
+        offers.first.price
+      end
+
       def self.content_or_nil(item)
-        item.nil? ? nil : item.content
+        item && item.content
       end
 
       def score_section
@@ -67,7 +72,6 @@ module Stew
       def score_from_score_section
         score_section[0].content.gsub(/[^0-9]/,'').to_i
       end
-
     end
   end
 end
