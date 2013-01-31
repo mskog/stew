@@ -4,6 +4,7 @@ require 'spec_helper'
 
 describe Stew::Store::App do
   let(:response){open("spec/fixtures/store/apps/#{id}.txt")}
+  #let(:document){Nokogiri.HTML(response)}
 
   subject{Stew::Store::App.new(response)}
 
@@ -96,16 +97,8 @@ describe Stew::Store::App do
       end
 
       describe "offers" do
-        it "has the correct offers" do
-          subject.offers.first.name.should eq 'Dark Souls™: Prepare To Die™ Edition'
-        end
-
-        it "has the correct description" do
-          subject.offers.first.description.should be_nil
-        end
-
-        it "has the correct price" do
-          subject.offers.first.price.should eq Money.new(3999,'EUR')
+        it "creates an AppOffers instance with the offer node" do
+          subject.offers.count.should eq 1
         end
       end
     end
@@ -143,20 +136,6 @@ describe Stew::Store::App do
         it "should be nil" do
           subject.price.should be_nil
         end
-      end
-    end
-  end
-
-  describe ".offers" do
-    context "when the app is on sale" do
-      let(:response){open("spec/fixtures/store/apps/211400_offers_sale.txt")}
-
-      it "sets the price" do
-        subject.offers.first.price.should eq Money.new('599', 'EUR')
-      end
-
-      it "sets the regular price" do
-        subject.offers.first.regular_price.should eq Money.new('1199', 'EUR')
       end
     end
   end

@@ -30,12 +30,8 @@ module Stew
         App.content_or_nil @document.at_xpath("//a[contains(@href, 'publisher')]")
       end
 
-      def price
-        @document.at_css("div.game_purchase_price").content.gsub(/[\n\t\r\s]/, '')
-      end
-
       def offers
-        @document.css("div.game_area_purchase_game").map {|area| AppOffer.create(area)}
+        @offers ||= AppOffers.new @document.css("div.game_area_purchase_game")
       end
 
       def dlc?
@@ -47,12 +43,12 @@ module Stew
       end
 
       def price
-        return nil if offers.empty?
+        return nil if free?
         first_offer_price
       end
 
       def free?
-        offers.empty?
+        offers.count == 0
       end
 
       private

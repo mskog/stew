@@ -20,6 +20,7 @@ require 'stew/community/profile_game'
 require 'stew/community/profile_games'
 
 require 'stew/store/app'
+require 'stew/store/app_offers'
 require 'stew/store/app_offer'
 require 'stew/store/app_offer_sale'
 

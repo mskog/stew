@@ -58,7 +58,7 @@ describe "Store", :vcr do
     subject{store_client.app(id)}
 
     it "has multiple offers" do
-      subject.offers.size.should > 1
+      subject.offers.count.should > 1
     end
 
     it "has a base price" do
@@ -82,7 +82,7 @@ describe "Store", :vcr do
     end
 
     describe "the 4 pack" do
-      let(:offer){subject.offers[1]}
+      let(:offer){subject.offers.entries[1]}
 
       it "has the correct name" do
         offer.name.should eq 'Borderlands 2 - 4-Pack'
