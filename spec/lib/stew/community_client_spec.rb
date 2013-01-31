@@ -15,7 +15,7 @@ describe "Stew::CommunityClient" do
 
     context "when the vanity name exists" do
       it "returns the 64-bit id" do
-        Stew::CommunityClient.steam_id_from_vanity_name(name).should eq id.to_s
+        Stew::CommunityClient.steam_id_from_vanity_name(name).should eq id
       end
     end
   end

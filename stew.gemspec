@@ -28,6 +28,8 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'simplecov-rcov'
   gem.add_development_dependency 'multi_xml'
   gem.add_development_dependency 'rb-inotify'
+  gem.add_development_dependency 'yard'
+  gem.add_development_dependency 'rdiscount'
 
   gem.add_runtime_dependency 'nokogiri'
   gem.add_runtime_dependency 'faraday'
