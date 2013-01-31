@@ -146,4 +146,18 @@ describe Stew::Store::App do
       end
     end
   end
+
+  describe ".offers" do
+    context "when the app is on sale" do
+      let(:response){open("spec/fixtures/store/apps/211400_offers_sale.txt")}
+
+      it "sets the price" do
+        subject.offers.first.price.should eq Money.new('599', 'EUR')
+      end
+
+      it "sets the regular price" do
+        subject.offers.first.regular_price.should eq Money.new('1199', 'EUR')
+      end
+    end
+  end
 end

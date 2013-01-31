@@ -35,7 +35,7 @@ module Stew
       end
 
       def offers
-        @document.css("div.game_area_purchase_game").map {|area| AppOffer.new(area)}
+        @document.css("div.game_area_purchase_game").map {|area| AppOffer.create(area)}
       end
 
       def dlc?

@@ -9,6 +9,22 @@ describe "Stew::Store::AppOffer" do
 
   subject{Stew::Store::AppOffer.new(node)}
 
+  describe ".create" do
+    context "when the app is not on sale" do
+      it "returns an AppOffer instance" do
+        Stew::Store::AppOffer.create(node).should be_a(Stew::Store::AppOffer)
+      end
+    end
+
+    context "when the app is on sale" do
+      let(:node){Nokogiri.HTML(open("spec/fixtures/store/apps/211400_offers_sale.txt"))}
+
+      it "returns an AppOfferSale instance" do
+        Stew::Store::AppOffer.create(node).should be_a(Stew::Store::AppOfferSale)
+      end
+    end
+  end
+
   describe "attributes" do
     it "sets the name" do
       subject.name.should eq name
@@ -20,6 +36,12 @@ describe "Stew::Store::AppOffer" do
 
     it "sets the price" do
       subject.price.should eq price
+    end
+  end
+
+  describe ".sale?" do
+    it "is false" do
+      subject.sale?.should be_false
     end
   end
 end

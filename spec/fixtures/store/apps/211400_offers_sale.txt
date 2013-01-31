@@ -1,0 +1,46 @@
+<div  class="game_area_purchase_game">
+    <form name="add_to_cart_17638" action="http://store.steampowered.com/cart/" method="POST">
+      <input type="hidden" name="snr" value="1_5_9__403">
+      <input type="hidden" name="action" value="add_to_cart">
+      <input type="hidden" name="subid" value="17638">
+    </form>
+        <div class="game_area_purchase_platform"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_win.png" width="22" height="22"></div>
+    <h1>Buy Deadlight</h1>
+        <script type="text/javascript">   Event.observe( document, 'dom:loaded', function() {   var discountCountdownDiv = $( '17638_countdown_0' );    if ( discountCountdownDiv )     InitDailyDealTimer( discountCountdownDiv, 1359676980 );   } );</script><p class="game_purchase_discount_countdown">MIDWEEK MADNESS! Offer ends in <span id=17638_countdown_0></span></p>
+    
+    <div class="game_purchase_action" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <div class="game_purchase_action_bg">
+                                        <div class="discount_block game_purchase_discount">   <div class="discount_pct">-50%</div>    <div class="discount_prices">     <div class="discount_original_price">11,99&#8364; </div>      <div class="discount_final_price" itemprop="price">5,99&#8364; </div>   </div>  </div>                          <div class="btn_addtocart">
+          <div class="btn_addtocart_left"></div>
+           
+            <a class="btn_addtocart_content" href="javascript:addToCart( 17638);">Add to Cart</a>
+                    <div class="btn_addtocart_right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="game_area_purchase_game_wrapper">
+  <div  class="game_area_purchase_game">
+    <form name="add_to_cart_17640" action="http://store.steampowered.com/cart/" method="POST">
+      <input type="hidden" name="snr" value="1_5_9__403">
+      <input type="hidden" name="action" value="add_to_cart">
+      <input type="hidden" name="subid" value="17640">
+    </form>
+        <div class="game_area_purchase_platform"><img class="platform_img" src="http://cdn.store.steampowered.com/public/images/v5/platforms/platform_win.png" width="22" height="22"></div>
+    <h1>Buy Deadlight: Soundtrack Edition</h1>
+          <p>Includes the full game and Soundtrack</p>
+        <script type="text/javascript">   Event.observe( document, 'dom:loaded', function() {   var discountCountdownDiv = $( '17640_countdown_1' );    if ( discountCountdownDiv )     InitDailyDealTimer( discountCountdownDiv, 1359676980 );   } );</script><p class="game_purchase_discount_countdown">MIDWEEK MADNESS! Offer ends in <span id=17640_countdown_1></span></p>
+    
+    <div class="game_purchase_action">
+            <div class="game_purchase_action_bg">
+                                        <div class="discount_block game_purchase_discount">   <div class="discount_pct">-50%</div>    <div class="discount_prices">     <div class="discount_original_price">14,99&#8364; </div>      <div class="discount_final_price" itemprop="price">7,49&#8364; </div>   </div>  </div>                          <div class="btn_addtocart">
+          <div class="btn_addtocart_left"></div>
+           
+            <a class="btn_addtocart_content" href="javascript:addToCart( 17640);">Add to Cart</a>
+                    <div class="btn_addtocart_right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
