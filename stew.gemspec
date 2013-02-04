@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Stew::VERSION
   gem.authors       = ["Magnus Skog"]
   gem.email         = ["magnus.m.skog@gmail.com"]
-  gem.description   = "A simple gem for communicating with the Steam gaming service"
-  gem.summary       = "A simple gem for communicating with the Steam gaming service"
-  gem.homepage      = ""
+  gem.description   = "Accesses the Steam Community API as well as the Store. Can show games for profiles as well as parsed HTML data for applications and sales"
+  gem.summary       = "A client for the Steam Gaming service."
+  gem.homepage      = "https://github.com/mskog/stew"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
