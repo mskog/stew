@@ -13,8 +13,8 @@ module Stew
       raise AppIdNotFoundError
     end
 
-    def app(id,region = Stew.config[:default_region])
-      Store::App.new(@client.get("/app/#{id}",:cc => region.to_sym))
+    def app(app_id,region = Stew.config[:default_region])
+      Store::App.new(@client.get("/app/#{app_id}",:cc => region.to_sym))
     end
   end
   class AppIdNotFoundError < StandardError; end

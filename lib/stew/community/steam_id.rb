@@ -11,9 +11,9 @@ module Stew
         raise SteamIdNotFoundError
       end
 
-      def initialize(id,opts={})
-        @id = id
-        @client = opts[:client] || self.class.client_with_options(id)
+      def initialize(steam_id,opts={})
+        @id = steam_id
+        @client = opts[:client] || self.class.client_with_options(steam_id)
       end
 
       def profile
@@ -30,9 +30,9 @@ module Stew
 
       private
 
-      def self.client_with_options(id)
+      def self.client_with_options(steam_id)
         klass = Stew.config[:default_community_client]
-        return klass.new if id.to_s.match /^[0-9]+$/
+        return klass.new if steam_id.to_s.match /^[0-9]+$/
         return klass.new({:base_path => 'id'})
       end
     end
