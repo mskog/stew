@@ -1,5 +1,14 @@
 module Stew
   module Community
+
+    # The base class for all Steam Ids. Has accessors for the base profile, games and friends of a Steam Id
+    # 
+    # @example Create an instance from a 64-bit steam id
+    #   Stew::Community::SteamId.new(76561197992917668) #=> Stew::Community::SteamId
+    # 
+    # @example Create an instance from a community URL
+    #   Stew::Community::SteamId.create("http://steamcommunity.com/profiles/76561197992917668") #=> Stew::Community::SteamId
+    #   
     class SteamId
 
       attr_reader :id
@@ -37,6 +46,7 @@ module Stew
       end
     end
 
+    # Error to be raised when no Steam id is found
     class SteamIdNotFoundError < StandardError; end
   end
 end

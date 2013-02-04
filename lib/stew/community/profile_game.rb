@@ -1,5 +1,7 @@
 module Stew
   module Community
+
+    #Represents a Steam Game owned by a Steam Id
     class ProfileGame
       attr_reader :app_id
 

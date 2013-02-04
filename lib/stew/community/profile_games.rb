@@ -1,5 +1,7 @@
 module Stew
   module Community
+
+    #Represents the ProfileGame instances owned by a steam id
     class ProfileGames
       include Enumerable
 

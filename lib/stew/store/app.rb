@@ -1,5 +1,8 @@
 module Stew
   module Store
+    
+    # An application in the Steam Store
+    # Initialized from the contents of a web request to the Steam store app page
     class App
       def initialize(response)
         @document = Nokogiri::HTML(response)

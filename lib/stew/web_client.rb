@@ -1,4 +1,6 @@
 module Stew
+
+  # Client wrapper for performing requests to the Steam Store
   class WebClient
     def initialize(uri)
       @connection = WebClient.connection(uri)

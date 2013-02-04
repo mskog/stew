@@ -1,5 +1,8 @@
 module Stew
   module Community
+
+    # Represents the friends of a Steam profile
+    # Enumerates a list of Steam Id instances
     class ProfileFriends
       include Enumerable
 

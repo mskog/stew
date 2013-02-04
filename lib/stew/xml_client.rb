@@ -1,9 +1,13 @@
 module Stew
+
+  # Client for accessing the steam community XML api
   class XmlClient
     def initialize(uri)
       @connection = XmlClient.connection(uri)
     end
 
+    # The Steam community is notorious for responding with error 503
+    # Retries up to 10 times for the same request to compensate for this
     def get(path)
       10.times do
         response = request(path)
@@ -36,7 +40,10 @@ module Stew
       response
     end
 
+    # Raised when the Steam community API fails to respond after 10 tries
     class ServiceUnavailableError < StandardError; end
+
+    # Raised when the reply is malformatted or if nothing is found
     class ObjectNotFoundError < StandardError; end
   end
 end

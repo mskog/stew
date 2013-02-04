@@ -1,5 +1,7 @@
 module Stew
   module Store
+
+    #An app offer that is a sale
     class AppOfferSale < AppOffer
       def price
         Stew.money @node.at_css('div.discount_final_price').content.gsub(/[\n\t\r\s]/, '')

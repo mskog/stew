@@ -38,7 +38,7 @@ module Stew
   @valid_config_keys = @config.keys
 
   def self.configure(opts = {})
-    opts.each {|k,v| @config[k.to_sym] = v if @valid_config_keys.include? k.to_sym}
+    opts.each {|key,value| @config[key] = value if @valid_config_keys.include? key}
   end
 
   def self.config
@@ -52,5 +52,7 @@ module Stew
       Money.parse price
     end
   end
+
+  #Base error
   class StewError < StandardError; end
 end

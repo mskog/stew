@@ -1,5 +1,7 @@
 module Stew
   module Store
+
+    #The offers of an application
     class AppOffers
       include Enumerable
 
