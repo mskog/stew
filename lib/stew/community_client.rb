@@ -22,15 +22,15 @@ module Stew
     end
 
     def profile(steam_id)
-      Community::Profile.new @xml_client.get(path(steam_id))['profile']
+      Community::Profile.new @xml_client.get(path(steam_id)).profile
     end
 
     def profile_games(steam_id)
-      Community::ProfileGames.new @xml_client.get(path(steam_id,'games'))['gamesList']['games']['game']
+      Community::ProfileGames.new @xml_client.get(path(steam_id,'games')).games
     end
 
     def profile_friends(steam_id)
-      Community::ProfileFriends.new @xml_client.get(path(steam_id,'friends'))['friendsList']['friends']['friend']
+      Community::ProfileFriends.new @xml_client.get(path(steam_id,'friends')).friends
     end
 
     private

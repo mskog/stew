@@ -37,7 +37,7 @@ module Stew
     def self.parse_response(response)
       raise(ObjectNotFoundError) if response.is_a?(String)
       raise(ObjectNotFoundError, response['response']['error']) if response.has_key?('response')
-      response
+      XmlClientResponse.new response
     end
 
     # Raised when the Steam community API fails to respond after 10 tries

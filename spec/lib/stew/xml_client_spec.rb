@@ -15,8 +15,8 @@ describe "Stew::XmlClient" do
         stub_request(:get, "http://steamcommunity.com/profiles/#{id}?xml=1").to_return(File.new("spec/fixtures/profiles/#{id}.txt"))
       end
 
-      it "returns a hash containing the parsed data from the steam community servers" do
-        subject.get(path).should eq results
+      it "returns a XmlClientResponse object" do
+        subject.get(path).response.should eq results
       end
     end
 

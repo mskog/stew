@@ -10,6 +10,7 @@ require "stew/version"
 
 require 'stew/web_client'
 require 'stew/xml_client'
+require 'stew/xml_client_response'
 require 'stew/community_client'
 require 'stew/store_client'
 
