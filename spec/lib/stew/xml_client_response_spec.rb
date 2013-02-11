@@ -22,7 +22,11 @@ describe "Stew::XmlClientResponse" do
     end
 
     context "when the user has no games" do
-      let(:response){YAML.load_file("spec/fixtures/profiles/games/#{id}.yml").delete('gamesList')}
+      let(:response){
+        data = YAML.load_file("spec/fixtures/profiles/games/#{id}.yml")
+        data['gamesList']['games'].delete('game')
+        data
+      }
 
       it "returns an empty array" do
         subject.games.should eq []
@@ -40,7 +44,11 @@ describe "Stew::XmlClientResponse" do
     end
 
     context "when the user has no friends" do
-      let(:response){YAML.load_file("spec/fixtures/profiles/friends/#{id}.yml").delete('friendsList')}
+      let(:response){
+        data = YAML.load_file("spec/fixtures/profiles/friends/#{id}.yml")
+        data['friendsList']['friends'].delete('friend')
+        data
+      }
 
       it "returns an empty array" do
         subject.friends.should eq []

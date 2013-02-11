@@ -24,11 +24,11 @@ module Stew
     private
 
     def has_games?
-      @response.has_key?('gamesList')
+      !@response['gamesList']['games'].empty?
     end
 
     def has_friends?
-      @response.has_key?('friendsList')
+      !@response['friendsList']['friends'].empty?
     end
   end
 end
