@@ -20,7 +20,7 @@ describe "Stew::CommunityClient" do
     let(:name){"Somename"}
 
     before :each do
-      Stew::Community::XmlClient.any_instance.should_receive(:get).with("/id/#{name}").and_return(response)
+      client.should_receive(:get).with("/id/#{name}").and_return(response)
     end
 
     context "when the vanity name exists" do

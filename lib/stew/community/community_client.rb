@@ -24,7 +24,7 @@ module Stew
       end
 
       def steam_id_from_vanity_name(vanity_name)
-        response = XmlClientResponseProfile.new(Stew::Community::XmlClient.new(COMMUNITY_URL).get("/id/#{vanity_name}"))
+        response = XmlClientResponseProfile.new(@xml_client.get("/id/#{vanity_name}"))
         response.profile['steamID64'].to_i
       end
 
