@@ -24,11 +24,11 @@ module Stew
     private
 
     def has_games?
-      !@response['gamesList']['games'].empty?
+      !@response['gamesList']['games'].nil?
     end
 
     def has_friends?
-      !@response['friendsList']['friends'].empty?
+      !@response['friendsList']['friends'].nil?
     end
   end
 end
