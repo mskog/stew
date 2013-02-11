@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe "Stew::WebClient", :vcr do
+describe "Stew::Store::WebClient", :vcr do
   let(:uri){'http://store.steampowered.com/'}
 
-  subject{Stew::WebClient.new(uri)}
+  subject{Stew::Store::WebClient.new(uri)}
 
   describe ".get" do
     let(:id){216390}

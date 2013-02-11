@@ -4,7 +4,7 @@ require 'spec_helper'
 
 describe "Store", :vcr do
 
-  let(:store_client){Stew::StoreClient.new}
+  let(:store_client){Stew::Store::StoreClient.new}
   subject{store_client.app(id)}
 
   describe "Creation of a store app with data" do

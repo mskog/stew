@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe "Stew::XmlClient" do
+describe "Stew::Community::XmlClient" do
   let(:uri){'http://steamcommunity.com'}
   let(:results){YAML.load_file("spec/fixtures/profiles/#{id}.yml")}
   let(:id){76561197992917668}
 
-  subject{Stew::XmlClient.new(uri)}
+  subject{Stew::Community::XmlClient.new(uri)}
 
   describe "#get" do
     context "when no error is found in the reply" do
@@ -15,8 +15,8 @@ describe "Stew::XmlClient" do
         stub_request(:get, "http://steamcommunity.com/profiles/#{id}?xml=1").to_return(File.new("spec/fixtures/profiles/#{id}.txt"))
       end
 
-      it "returns a XmlClientResponse object" do
-        subject.get(path).response.should eq results
+      it "returns the response" do
+        subject.get(path).should eq results
       end
     end
 
@@ -29,7 +29,7 @@ describe "Stew::XmlClient" do
       end
 
       it "throws an ObjectNotFound error" do
-        expect{subject.get(path).should}.to raise_error(Stew::XmlClient::ObjectNotFoundError)
+        expect{subject.get(path).should}.to raise_error(Stew::Community::XmlClient::ObjectNotFoundError)
       end
     end
   end

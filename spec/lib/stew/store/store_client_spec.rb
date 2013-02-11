@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe "Stew::StoreClient" do
+describe "Stew::Store::StoreClient" do
   let(:client){double('web_client')}
   let(:response){open("spec/fixtures/store/apps/#{id}.txt")}
   let(:region){:us}
-  subject{Stew::StoreClient.new({:client => client})}
+  subject{Stew::Store::StoreClient.new({:client => client})}
 
   describe ".app" do
     let(:id) {211420}
@@ -51,7 +51,7 @@ describe "Stew::StoreClient" do
       let(:url){"sodijfsdf"}
 
       it "raises a Stew::Store::AppIdNotFoundError" do
-        expect{subject.create_app(url)}.to raise_error(Stew::AppIdNotFoundError)
+        expect{subject.create_app(url)}.to raise_error(Stew::Store::AppIdNotFoundError)
       end
     end
   end

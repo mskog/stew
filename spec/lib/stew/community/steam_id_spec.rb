@@ -56,7 +56,7 @@ describe "Stew::Community::SteamId" do
       end
 
       it "should create a community client with no options" do
-        Stew::CommunityClient.should_receive(:new).with()
+        Stew::Community::CommunityClient.should_receive(:new).with()
         Stew::Community::SteamId.new(id)
       end
     end
@@ -69,7 +69,7 @@ describe "Stew::Community::SteamId" do
       end
 
       it "should create a community client with the base_path option set to 'id'" do
-        Stew::CommunityClient.should_receive(:new).with({:base_path => 'id'})
+        Stew::Community::CommunityClient.should_receive(:new).with({:base_path => 'id'})
         Stew::Community::SteamId.new(id)
       end
     end
