@@ -56,17 +56,17 @@ steam_id.friends.each {|friend| puts friend.profile.nickname}
 
 ##### From an App id
 ```ruby
-app = Stew::StoreClient.new.create_app(220240)
+app = Stew::Store::StoreClient.new.create_app(220240)
 ```
 
 ##### From a URL
 ```ruby
-app = Stew::StoreClient.new.create_app("http://store.steampowered.com/app/220240/")
+app = Stew::Store::StoreClient.new.create_app("http://store.steampowered.com/app/220240/")
 ```
 
 ##### From a URL with a region
 ```ruby
-app = Stew::StoreClient.new.create_app("http://store.steampowered.com/app/220240/?cc=uk")
+app = Stew::Store::StoreClient.new.create_app("http://store.steampowered.com/app/220240/?cc=uk")
 ```
 
 All the examples above will create a Stew::Store::App instance for the game Far Cry 3. You can then access data like so:
