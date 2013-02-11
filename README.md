@@ -59,6 +59,12 @@ steam_id.friends.each {|friend| puts friend.profile.nickname}
 app = Stew::Store::StoreClient.new.create_app(220240)
 ```
 
+##### From an App id in a specific region
+A more robust region support, with region identification by country etc, is planned.
+```ruby
+app = Stew::Store::StoreClient.new.create_app(220240, :uk)
+```
+
 ##### From a URL
 ```ruby
 app = Stew::Store::StoreClient.new.create_app("http://store.steampowered.com/app/220240/")
