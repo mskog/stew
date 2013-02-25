@@ -22,10 +22,12 @@ require 'stew/community/profile_games'
 
 require 'stew/store/web_client'
 require 'stew/store/store_client'
+require 'stew/store/sales_client'
 require 'stew/store/app'
 require 'stew/store/app_offers'
 require 'stew/store/app_offer'
 require 'stew/store/app_offer_sale'
+require 'stew/store/sales'
 
 module Stew
   Money.assume_from_symbol = true
