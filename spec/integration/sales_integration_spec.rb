@@ -12,16 +12,17 @@ describe "Sales" do
     let(:subject){Stew::Store::SalesClient.new}
     let(:sales){subject.sales}
 
-    it "has the correct name" do
-      sales.first.name.should eq "Call of DutyÂ®: Black Ops II"
+    it "has the correct names", :focus do
+      sales.entries[0].name.should eq "Call of Duty®: Black Ops II"
+      sales.entries[1].name.should eq "Tomb Raider"
     end
 
     it "has the correct price" do
-      sales.first.price.should eq Money.new('40,19', :eur)
+      sales.first.price.should eq Money.new('4019', :eur)
     end
 
     it "has the correct original price" do
-      sales.first.original_price.should eq Money.new('59,99', :eur)
+      sales.first.original_price.should eq Money.new('5999', :eur)
     end
 
     it "has an app id" do

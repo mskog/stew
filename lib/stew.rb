@@ -28,6 +28,7 @@ require 'stew/store/app_offers'
 require 'stew/store/app_offer'
 require 'stew/store/app_offer_sale'
 require 'stew/store/sales'
+require 'stew/store/sale'
 
 module Stew
   Money.assume_from_symbol = true
