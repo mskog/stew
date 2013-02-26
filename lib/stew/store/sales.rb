@@ -1,5 +1,7 @@
 module Stew
   module Store
+
+    # The current Steam Sales
     class Sales
       include Enumerable
 

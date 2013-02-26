@@ -8,10 +8,9 @@ module Stew
         @client = opts[:client] || Stew.config[:default_web_client].new(STORE_URL)
       end
 
-      def sales
-        Sales.new(@client.get("/search/tab",{:cc => :se, :l => 'english', :tab => 'Discounts', :start => 0, :count => 10000}))
+      def sales(region = Stew.config[:default_region])
+        Sales.new(@client.get("/search/tab",{:cc => region, :l => 'english', :tab => 'Discounts', :start => 0, :count => 10000}))
       end
     end
-
   end
 end

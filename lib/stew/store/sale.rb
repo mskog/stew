@@ -1,12 +1,13 @@
 module Stew
   module Store
+    # A single sale in the Steam Store
     class Sale
       def initialize(node)
         @node = node
       end
 
       def name
-        @node.at_css("div.tab_desc").xpath("//h4").first.content
+        @node.at_css("div.tab_desc").at_css("h4").content
       end
 
       def price
@@ -14,7 +15,7 @@ module Stew
       end
 
       def original_price
-        Stew.money @node.at_css("div.tab_price").xpath("//strike").first.content.strip
+        Stew.money @node.at_css("div.tab_price").at_css('strike').content.strip
       end
 
       def app_id
