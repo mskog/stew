@@ -1,5 +1,6 @@
 # Stew
 
+[![Gem Version](https://badge.fury.io/rb/stew.png)](http://badge.fury.io/rb/stew)
 [![Code Climate](https://codeclimate.com/github/mskog/stew.png)](https://codeclimate.com/github/mskog/stew)
 [![Dependency Status](https://gemnasium.com/mskog/stew.png)](https://gemnasium.com/mskog/stew)
 
