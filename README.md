@@ -1,6 +1,7 @@
 # Stew
 
 [![Code Climate](https://codeclimate.com/github/mskog/stew.png)](https://codeclimate.com/github/mskog/stew)
+[![Dependency Status](https://gemnasium.com/mskog/stew.png)](https://gemnasium.com/mskog/stew)
 
 ##Information
 
