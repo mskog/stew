@@ -43,7 +43,7 @@ describe "Store", :vcr => {:cassette_name => 'store_integration'} do
     end
 
     it "sets the header image" do
-      subject.header_image.should match /http:\/\/cdn.\.steampowered.com\/v\/gfx\/apps\/211420\/header_292x136\.jpg/
+      subject.header_image.should match /http:\/\/cdn.\.?steampowered.com\/v\/gfx\/apps\/211420\/header_292x136\.jpg/
     end
   end
 
