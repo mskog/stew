@@ -4,7 +4,6 @@ require 'spec_helper'
 
 describe Stew::Store::App do
   let(:response){open("spec/fixtures/store/apps/#{id}.txt")}
-  #let(:document){Nokogiri.HTML(response)}
 
   subject{Stew::Store::App.new(response)}
 
@@ -96,6 +95,12 @@ describe Stew::Store::App do
         end
       end
 
+      describe ".header_image" do
+        it "return the URL of the header image" do
+          subject.header_image.should eq 'http://cdn.steampowered.com/v/gfx/apps/211420/header_292x136.jpg'
+        end
+      end
+
       describe "offers" do
         it "creates an AppOffers instance with the offer node" do
           subject.offers.count.should eq 1
@@ -135,6 +140,12 @@ describe Stew::Store::App do
       describe ".price" do
         it "should be nil" do
           subject.price.should be_nil
+        end
+      end
+
+      describe ".header_image" do
+        it "should be nil" do
+          subject.header_image.should be_nil
         end
       end
     end

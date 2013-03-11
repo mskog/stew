@@ -2,7 +2,7 @@
 
 require 'spec_helper'
 
-describe "Store", :vcr do
+describe "Store", :vcr => {:cassette_name => 'store_integration'} do
 
   let(:store_client){Stew::Store::StoreClient.new}
   subject{store_client.app(id)}
@@ -40,6 +40,10 @@ describe "Store", :vcr do
 
     it "is not indie" do
       subject.indie?.should be_false
+    end
+
+    it "sets the header image" do
+      subject.header_image.should match /http:\/\/cdn.\.steampowered.com\/v\/gfx\/apps\/211420\/header_292x136\.jpg/
     end
   end
 

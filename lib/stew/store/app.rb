@@ -33,6 +33,10 @@ module Stew
         App.content_or_nil @document.at_xpath("//a[contains(@href, 'publisher')]")
       end
 
+      def header_image
+        App.src_or_nil @document.at_css('img.game_header_image')
+      end
+
       def offers
         @offers ||= AppOffers.new @document.css("div.game_area_purchase_game")
       end
@@ -62,6 +66,10 @@ module Stew
 
       def self.content_or_nil(item)
         item && item.content
+      end
+
+      def self.src_or_nil(item)
+        item && item[:src].split("?").first
       end
 
       def score_section

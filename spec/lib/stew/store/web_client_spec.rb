@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "Stew::Store::WebClient", :vcr do
+describe "Stew::Store::WebClient", :vcr => {:cassette_name => 'web_client'} do
   let(:uri){'http://store.steampowered.com/'}
 
   subject{Stew::Store::WebClient.new(uri)}
