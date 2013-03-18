@@ -55,6 +55,22 @@ describe Stew::Store::App do
         end
       end
 
+      describe ".dlc_app_id" do
+        context "when the app is not DLC" do
+          it "returns nil" do
+            subject.dlc_app_id.should be_nil
+          end
+        end
+        
+        context "when the app is DLC" do
+          let(:id){16870}
+
+          it "returns true" do
+            subject.dlc_app_id.should eq 8930
+          end
+        end
+      end
+
       describe ".developer" do
         it "returns the developer" do
           subject.developer.should eq 'FromSoftware'

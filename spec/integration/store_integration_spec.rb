@@ -55,6 +55,10 @@ describe "Store", :vcr => {:cassette_name => 'store_integration'} do
     it "sets dlc flag" do
       subject.dlc?.should be_true
     end
+
+    it "sets the dlc_app_id" do
+      subject.dlc_app_id.should eq 8930
+    end
   end
 
   describe "Creation of a store App with multiple offers" do

@@ -45,6 +45,12 @@ module Stew
         !@document.css("div.game_area_dlc_bubble").empty?
       end
 
+      def dlc_app_id
+        return nil unless dlc?
+        #Close your eyes...
+        @document.at_css("div.game_area_dlc_bubble").at_css('a').attributes['href'].value[/\d+/].to_i
+      end
+
       def indie?
         genres.include? 'Indie'
       end
