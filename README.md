@@ -4,6 +4,10 @@
 [![Code Climate](https://codeclimate.com/github/mskog/stew.png)](https://codeclimate.com/github/mskog/stew)
 [![Dependency Status](https://gemnasium.com/mskog/stew.png)](https://gemnasium.com/mskog/stew)
 
+##Important!
+
+**Steam has deprecated their old xml format api. The good news is that they have added the remaining functionality from it to their "real" web api so Stew can use that instead. Stew still works and I am currently working on updating it to use the web api instead. Functionality will probably remain the same but you will need an API key from Steam to use Stew**
+
 ##Information
 
 Stew can access both the Steam Community and the Steam Store. The Community library uses the Steam XML API and should be rather stable.
