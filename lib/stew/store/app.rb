@@ -42,7 +42,7 @@ module Stew
       end
 
       def dlc?
-        @document.at_css("div.game_area_dlc_bubble")
+        !@document.css("div.game_area_dlc_bubble").empty?
       end
 
       def indie?

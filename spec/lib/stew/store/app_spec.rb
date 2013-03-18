@@ -127,7 +127,7 @@ describe Stew::Store::App do
 
       describe ".dlc?" do
         it "should be nil" do
-          subject.dlc?.should be_nil
+          subject.dlc?.should be_false
         end
       end
 

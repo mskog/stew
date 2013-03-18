@@ -4,7 +4,7 @@ module Stew
     # Represents a price of an application in the steam store
     class AppOffer
       def self.create(node)
-        return AppOfferSale.new(node) unless node.at_css('div.discount_final_price').nil?
+        return AppOfferSale.new(node) unless node.css('div.discount_final_price').empty?
         return AppOffer.new(node)
       end
 
