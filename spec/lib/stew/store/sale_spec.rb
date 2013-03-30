@@ -3,38 +3,49 @@
 require 'spec_helper'
 
 describe Stew::Store::Sale do
-  let(:response){File.new("spec/fixtures/store/sales/sale.txt").read}
   subject{Stew::Store::Sale.new(Nokogiri::HTML(response))}
 
-  describe "#name" do
-    let(:expected_name){"Tomb Raider"}
+  context "a broken sale with no original price" do
+    let(:response){File.new("spec/fixtures/store/sales/broken_sale.txt").read}
 
-    it "returns the name" do
-      subject.name.should eq expected_name
+    it "sets the original price to the discounted price" do
+      subject.original_price.should eq subject.price
     end
   end
 
-  describe "#price" do
-    let(:expected_price){Money.new("4499", :usd)}
+  context "a proper sale" do
+    let(:response){File.new("spec/fixtures/store/sales/sale.txt").read}
 
-    it "returns the price" do
-      subject.price.should eq expected_price
+    describe "#name" do
+      let(:expected_name){"Tomb Raider"}
+
+      it "returns the name" do
+        subject.name.should eq expected_name
+      end
     end
-  end
 
-  describe "#original_price" do
-    let(:expected_original_price){Money.new("4999", :usd)}
+    describe "#price" do
+      let(:expected_price){Money.new("4499", :usd)}
 
-    it "returns the original price" do
-      subject.original_price.should eq expected_original_price
+      it "returns the price" do
+        subject.price.should eq expected_price
+      end
     end
-  end
 
-  describe "#app_id" do
-    let(:expected_app_id){203160}
+    describe "#original_price" do
+      let(:expected_original_price){Money.new("4999", :usd)}
 
-    it "returns the app id" do
-      subject.app_id.should eq expected_app_id
+      it "returns the original price" do
+        subject.original_price.should eq expected_original_price
+      end
+    end
+
+    describe "#app_id" do
+      let(:expected_app_id){203160}
+
+      it "returns the app id" do
+        subject.app_id.should eq expected_app_id
+      end
     end
   end
 end

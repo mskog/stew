@@ -22,7 +22,7 @@ describe "Sales" do
     end
 
     it "has the correct original price" do
-      sales.first.original_price.should eq Money.new('5999', :eur)
+      sales.first.original_price.should eq Money.new('5999', :usd)
     end
 
     it "has an app id" do

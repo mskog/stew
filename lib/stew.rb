@@ -52,7 +52,7 @@ module Stew
   end
 
   def self.money(price)
-    if price.include?("€")
+    if price.nil? == false && price.include?("€")
       Money.parse(price[-1,1]+price[0..-2])
     else
       Money.parse price
