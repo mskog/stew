@@ -31,7 +31,7 @@ module Stew
       end
 
       def app(app_id,region = Stew.config[:default_region])
-        Store::App.new(@client.get("/app/#{app_id}",:cc => region.to_sym))
+        Store::App.new(@client.get("/app/#{app_id}",:cc => region.to_sym), app_id.to_i)
       end
     end
 

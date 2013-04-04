@@ -10,7 +10,7 @@ describe "Stew::Store::StoreClient" do
     let(:id) {211420}
     it "sends the correct message to its client" do
       client.should_receive(:get).with("/app/#{id}", {:cc => region}).and_return(response)
-      Stew::Store::App.should_receive(:new).with(response)
+      Stew::Store::App.should_receive(:new).with(response, id)
       subject.app(id)
     end
   end
@@ -21,7 +21,7 @@ describe "Stew::Store::StoreClient" do
     context "when given an integer" do
       it "creates an app with the given integer as id" do
         client.stub(:get).with("/app/#{id}", {:cc => :us}).and_return(response)
-        Stew::Store::App.should_receive(:new).with(response)
+        Stew::Store::App.should_receive(:new).with(response, id)
         subject.create_app(id)
       end
     end
@@ -32,7 +32,7 @@ describe "Stew::Store::StoreClient" do
 
       it "creates an app" do
         client.stub(:get).with("/app/#{id}", {:cc => region}).and_return(response)
-        Stew::Store::App.should_receive(:new).with(response)
+        Stew::Store::App.should_receive(:new).with(response, id)
         subject.create_app(url)
       end
     end
@@ -42,7 +42,7 @@ describe "Stew::Store::StoreClient" do
 
       it "creates an app" do
         client.stub(:get).with("/app/#{id}", {:cc => :us}).and_return(response)
-        Stew::Store::App.should_receive(:new).with(response)
+        Stew::Store::App.should_receive(:new).with(response, id)
         subject.create_app(url)
       end
     end

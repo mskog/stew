@@ -1,11 +1,14 @@
 module Stew
   module Store
+
+    attr_reader :id
     
     # An application in the Steam Store
     # Initialized from the contents of a web request to the Steam store app page
     class App
-      def initialize(response)
+      def initialize(response, id)
         @document = Nokogiri::HTML(response)
+        @id = id
       end
 
       def score
@@ -37,6 +40,10 @@ module Stew
         App.src_or_nil @document.at_css('img.game_header_image')
       end
 
+      def capsule_image
+        "http://cdn2.steampowered.com/v/gfx/apps/#{@id}/capsule_sm_120.jpg"
+      end
+
       def offers
         @offers ||= AppOffers.new @document.css("div.game_area_purchase_game")
       end
@@ -65,6 +72,10 @@ module Stew
       end
 
       private
+
+      def id
+
+      end
 
       def first_offer_price
         offers.first.price

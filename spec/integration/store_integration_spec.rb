@@ -45,6 +45,10 @@ describe "Store", :vcr => {:cassette_name => 'store_integration'} do
     it "sets the header image" do
       subject.header_image.should match /http:\/\/cdn.\.?steampowered.com\/v\/gfx\/apps\/211420\/header_292x136\.jpg/
     end
+
+    it "sets the capsule image" do
+      subject.capsule_image.should match /http:\/\/cdn.\.?steampowered.com\/v\/gfx\/apps\/211420\/capsule_sm_120\.jpg/
+    end
   end
 
   describe "Creation of a store DLC app with data" do

@@ -5,7 +5,7 @@ require 'spec_helper'
 describe Stew::Store::App do
   let(:response){open("spec/fixtures/store/apps/#{id}.txt")}
 
-  subject{Stew::Store::App.new(response)}
+  subject{Stew::Store::App.new(response, id)}
 
   describe "attributes" do
     context "when the parse is successful" do
@@ -114,6 +114,12 @@ describe Stew::Store::App do
       describe ".header_image" do
         it "return the URL of the header image" do
           subject.header_image.should eq 'http://cdn.steampowered.com/v/gfx/apps/211420/header_292x136.jpg'
+        end
+      end
+
+      describe ".capsule_image" do
+        it "return the URL of the capsule image" do
+          subject.capsule_image.should eq 'http://cdn2.steampowered.com/v/gfx/apps/211420/capsule_sm_120.jpg'
         end
       end
 
