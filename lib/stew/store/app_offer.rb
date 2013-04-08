@@ -16,6 +16,10 @@ module Stew
         Stew.money @node.at_css('div.game_purchase_price').content.gsub(/[\n\t\r\s]/, '')
       end
 
+      def regular_price
+        price
+      end
+
       def sale?
         false
       end

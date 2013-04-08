@@ -105,6 +105,23 @@ describe Stew::Store::App do
         end
       end
 
+      describe ".regular_price" do
+        context "when the app is not on sale" do
+          it "returns the price" do
+            subject.regular_price.should eq Money.new(3999, 'EUR')
+          end
+        end
+
+        context "when the app is on sale" do
+          let(:id){211400}
+          let(:response){open("spec/fixtures/store/apps/#{id}_sale.txt")}
+
+          it "returns the price of the app when it is not on sale" do
+            subject.regular_price.should eq Money.new(1199, 'EUR')
+          end
+        end
+      end
+
       describe ".free?" do
         it "returns true if the the app is free" do
           subject.free?.should be_false

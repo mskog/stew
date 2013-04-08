@@ -64,7 +64,12 @@ module Stew
 
       def price
         return nil if free?
-        first_offer_price
+        first_offer.price
+      end
+
+      def regular_price
+        return nil if free?
+        first_offer.regular_price
       end
 
       def free?
@@ -73,12 +78,8 @@ module Stew
 
       private
 
-      def id
-
-      end
-
-      def first_offer_price
-        offers.first.price
+      def first_offer
+        offers.first
       end
 
       def self.content_or_nil(item)
