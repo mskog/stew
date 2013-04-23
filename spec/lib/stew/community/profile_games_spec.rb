@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Stew::Community::ProfileGames" do
   let(:id){76561197992917668}
-  let(:response){YAML.load_file('spec/fixtures/profiles/games/76561197992917668.yml')['gamesList']['games']['game']}
+  let(:response){JSON.parse(IO.read('spec/fixtures/profiles/games/76561197992917668.json'))['response']['games']}
 
   let(:subject){Stew::Community::ProfileGames.new(response)}
 
@@ -11,7 +11,7 @@ describe "Stew::Community::ProfileGames" do
       response.each do |game|
         Stew::Community::ProfileGame.should_receive(:new).with(game)
       end
-      subject.entries.count.should eq 102
+      subject.entries.count.should eq 106
     end
   end
 
@@ -32,5 +32,4 @@ describe "Stew::Community::ProfileGames" do
       end
     end
   end
-
 end

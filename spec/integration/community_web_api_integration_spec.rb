@@ -14,6 +14,7 @@ describe "Community Access through the Web API", :vcr do
     describe "games" do
       it "creates games" do
         subject.games.collect(&:name).include?('Shank').should be_true
+        subject.games.collect(&:app_id).include?(17460).should be_true
       end
     end
 
