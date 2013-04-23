@@ -7,7 +7,7 @@ module Stew
       include Enumerable
 
       def initialize(data)
-        @friends = data.map {|friend| SteamId.new(friend)}
+        @friends = data.map {|friend| SteamId.new(friend['steamid'])}
       end
 
       def each(&block)

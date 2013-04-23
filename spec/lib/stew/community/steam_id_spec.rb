@@ -6,57 +6,56 @@ describe "Stew::Community::SteamId" do
 
   subject{Stew::Community::SteamId.new(id,{:client => community_client})}
 
-  describe "#create" do
-    context "when the parameter is an integer" do
-      it "creates a steam_id with the given integer as id" do
-        Stew::Community::SteamId.create(id).id.should eq id
-      end
-    end
+  # describe "#create" do
+  #   context "when the parameter is an integer" do
+  #     it "creates a steam_id with the given integer as id" do
+  #       Stew::Community::SteamId.create(id).id.should eq id
+  #     end
+  #   end
 
-    context "when the parameter is a steamcommunity url" do
-      let(:url){"http://steamcommunity.com/profiles/#{id}"}
+  #   context "when the parameter is a steamcommunity url" do
+  #     let(:url){"http://steamcommunity.com/profiles/#{id}"}
 
-      it "creates a steam_id with the id in the given string as id" do
-        Stew::Community::SteamId.create(url).id.should eq id
-      end
-    end
+  #     it "creates a steam_id with the id in the given string as id" do
+  #       Stew::Community::SteamId.create(url).id.should eq id
+  #     end
+  #   end
 
-    context "when the parameter is a vanity url" do
-      let(:name){"somename"}
-      let(:url){"http://steamcommunity.com/id/#{name}"}
+  #   context "when the parameter is a vanity url" do
+  #     let(:name){"somename"}
+  #     let(:url){"http://steamcommunity.com/id/#{name}"}
 
-      it "creates a steamid with the vanity name as first parameter" do
-        Stew::Community::SteamId.should_receive(:new).with(name, {})
-        Stew::Community::SteamId.create(url)
-      end
-    end
+  #     it "creates a steamid with the vanity name as first parameter" do
+  #       Stew::Community::SteamId.should_receive(:new).with(name, {})
+  #       Stew::Community::SteamId.create(url)
+  #     end
+  #   end
 
-    context "when the parameter is a vanity name" do
-      let(:name){"somename"}
+  #   context "when the parameter is a vanity name" do
+  #     let(:name){"somename"}
 
-      it "creates a steamid with the vanity name as first parameter" do
-        Stew::Community::SteamId.should_receive(:new).with(name,{})
-        Stew::Community::SteamId.create(name)
+  #     it "creates a steamid with the vanity name as first parameter" do
+  #       Stew::Community::SteamId.should_receive(:new).with(name,{})
+  #       Stew::Community::SteamId.create(name)
 
-      end
-    end
+  #     end
+  #   end
 
-    context "when the parameter is a url that cannot be matched" do
-      it "raises a SteamIdNotFound error" do
-        expect{Stew::Community::SteamId.create('sdfsdf/dsfsdf/com')}.to raise_error(Stew::Community::SteamIdNotFoundError)
-      end
-    end
-  end
+  #   context "when the parameter is a url that cannot be matched" do
+  #     it "raises a SteamIdNotFound error" do
+  #       expect{Stew::Community::SteamId.create('sdfsdf/dsfsdf/com')}.to raise_error(Stew::Community::SteamIdNotFoundError)
+  #     end
+  #   end
+  # end
 
   describe ".initialize" do
-
     context "when the id is a number" do
       it "sets the id" do
         subject.id.should eq id
       end
 
       it "should create a community client with no options" do
-        Stew::Community::CommunityClient.should_receive(:new).with()
+        Stew::Community::WebApiClient.should_receive(:new)
         Stew::Community::SteamId.new(id)
       end
     end
@@ -69,7 +68,7 @@ describe "Stew::Community::SteamId" do
       end
 
       it "should create a community client with the base_path option set to 'id'" do
-        Stew::Community::CommunityClient.should_receive(:new).with({:base_path => 'id'})
+        Stew::Community::WebApiClient.should_receive(:new)
         Stew::Community::SteamId.new(id)
       end
     end

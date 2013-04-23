@@ -17,6 +17,8 @@ end
 config = YAML::load_file("spec/config.yml")
 STEAM_API_KEY = config['steam_api_key']
 
+Stew::configure({steam_api_key: STEAM_API_KEY})
+
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true

@@ -2,8 +2,7 @@ require 'spec_helper'
 
 describe "Community Access through the Web API", :vcr do
   describe "Creation of a steam profile with data" do
-    let(:web_api_client){Stew::Community::WebApiClient.new(STEAM_API_KEY)}
-    subject{Stew::Community::SteamId.create(76561197992917668, client: web_api_client)}
+    subject{Stew::Community::SteamId.create(76561197992917668)}
 
     describe "profile" do
       it "sets the nickname" do

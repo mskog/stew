@@ -8,13 +8,7 @@ require 'money'
 
 require "stew/version"
 
-require 'stew/community/xml_client/xml_client'
-require 'stew/community/xml_client/xml_client_response_profile'
-require 'stew/community/xml_client/xml_client_response_games'
-require 'stew/community/xml_client/xml_client_response_friends'
-
 require 'stew/community/web_client'
-require 'stew/community/community_client'
 require 'stew/community/web_api_client'
 require 'stew/community/steam_id'
 require 'stew/community/profile'
@@ -36,11 +30,11 @@ module Stew
   Money.assume_from_symbol = true
   
   @config = {
-    :default_community_client => Community::CommunityClient,
+    :default_community_client => Community::WebApiClient,
     :default_store_client => Store::StoreClient,
-    :default_xml_client => Community::XmlClient,
     :default_web_client => Store::WebClient,
-    :default_region => :us
+    :default_region => :us,
+    :steam_api_key => nil
   }
 
   @valid_config_keys = @config.keys

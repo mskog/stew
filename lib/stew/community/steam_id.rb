@@ -22,7 +22,7 @@ module Stew
 
       def initialize(steam_id,opts={})
         @id = steam_id
-        @client = opts[:client] || self.class.client_with_options(steam_id)
+        @client = opts[:client] || Stew.config[:default_community_client].new
       end
 
       def profile
@@ -35,14 +35,6 @@ module Stew
 
       def friends
         @friends ||= ProfileFriends.new @client.profile_friends(@id)
-      end
-
-      private
-
-      def self.client_with_options(steam_id)
-        klass = Stew.config[:default_community_client]
-        return klass.new if steam_id.to_s.match /^[0-9]+$/
-        return klass.new({:base_path => 'id'})
       end
     end
 
