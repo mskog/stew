@@ -76,39 +76,33 @@ describe "Stew::Community::SteamId" do
   end
 
   describe ".profile" do
-    it "calls profile on the community_client" do
-      community_client.should_receive(:profile).with(id)
-      subject.profile
-    end
+    let(:data){double}
 
-    it "only calls profile on the community_client once" do
-      community_client.should_receive(:profile).with(id).once.and_return(double('profile'))
+    it "returns a steam profile from the data received from the community client" do
+      community_client.should_receive(:profile).with(id).once.and_return(data)
+      Stew::Community::Profile.should_receive(:new).with(data).once.and_return(double)
       subject.profile
       subject.profile
     end
   end
 
   describe ".games" do
-    it "calls profile_games on the community_client" do
-      community_client.should_receive(:profile_games).with(id)
-      subject.games
-    end
+    let(:data){double}
 
-    it "only calls games on the community_client once" do
-      community_client.should_receive(:profile_games).with(id).once.and_return(double('profile_games'))
+    it "returns the games from the data received from the community client" do
+      community_client.should_receive(:profile_games).with(id).once.and_return(data)
+      Stew::Community::ProfileGames.should_receive(:new).with(data).once.and_return(double)
       subject.games
       subject.games
     end
   end
 
   describe ".friends" do
-    it "calls profile_friends on the community_client" do
-      community_client.should_receive(:profile_friends).with(id)
-      subject.friends
-    end
+    let(:data){double}
 
-    it "only calls friends on the community_client once" do
-      community_client.should_receive(:profile_friends).with(id).once.and_return(double('profile_friends'))
+    it "returns the friends from the data received from the community client" do
+      community_client.should_receive(:profile_friends).with(id).once.and_return(data)
+      Stew::Community::ProfileFriends.should_receive(:new).with(data).once.and_return(double)
       subject.friends
       subject.friends
     end

@@ -29,18 +29,15 @@ module Stew
       end
 
       def profile(steam_id)
-        response = XmlClientResponseProfile.new(@xml_client.get(path(steam_id)))
-        Community::Profile.new(response.profile)
+        XmlClientResponseProfile.new(@xml_client.get(path(steam_id))).profile
       end
 
       def profile_games(steam_id)
-        response = XmlClientResponseGames.new(@xml_client.get(path(steam_id,'games')))
-        Community::ProfileGames.new(response.games)
+        XmlClientResponseGames.new(@xml_client.get(path(steam_id,'games'))).games
       end
 
       def profile_friends(steam_id)
-        response = XmlClientResponseFriends.new(@xml_client.get(path(steam_id,'friends')))
-        Community::ProfileFriends.new(response.friends)
+        XmlClientResponseFriends.new(@xml_client.get(path(steam_id,'friends'))).friends
       end
 
       private
