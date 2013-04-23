@@ -6,7 +6,7 @@ module Stew
       end
 
       def get(uri)
-        request(uri)
+        request(uri).body
       end
 
       private

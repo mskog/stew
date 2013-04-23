@@ -15,8 +15,8 @@ module Stew
       private
 
       def set_data(data)
-        @id = data['steamID64'].to_i
-        @nickname = data['steamID']
+        @id = data['steamid'].to_i
+        @nickname = data['personaname']
       end
     end
   end
