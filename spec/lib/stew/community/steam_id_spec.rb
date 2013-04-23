@@ -26,7 +26,7 @@ describe "Stew::Community::SteamId" do
       let(:url){"http://steamcommunity.com/id/#{name}"}
 
       it "creates a steamid with the vanity name as first parameter" do
-        Stew::Community::SteamId.should_receive(:new).with(name)
+        Stew::Community::SteamId.should_receive(:new).with(name, {})
         Stew::Community::SteamId.create(url)
       end
     end
@@ -35,7 +35,7 @@ describe "Stew::Community::SteamId" do
       let(:name){"somename"}
 
       it "creates a steamid with the vanity name as first parameter" do
-        Stew::Community::SteamId.should_receive(:new).with(name)
+        Stew::Community::SteamId.should_receive(:new).with(name,{})
         Stew::Community::SteamId.create(name)
 
       end

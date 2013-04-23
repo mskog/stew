@@ -8,6 +8,16 @@ SimpleCov.formatter = SimpleCov::Formatter::RcovFormatter
 
 SimpleCov.start
 
+
+if File.exists?("spec/config.yml") == false
+  puts "Error. Please make sure that 'spec/config.yml' exists with the correct values before running the specs. See example file"
+  exit
+end
+
+config = YAML::load_file("spec/config.yml")
+STEAM_API_KEY = config['steam_api_key']
+
+
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true
   config.run_all_when_everything_filtered = true
