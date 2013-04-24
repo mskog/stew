@@ -8,6 +8,7 @@ require 'money'
 
 require "stew/version"
 
+require 'stew/community/steam_id_resolver'
 require 'stew/community/web_client'
 require 'stew/community/web_api_client'
 require 'stew/community/steam_id'

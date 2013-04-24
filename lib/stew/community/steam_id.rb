@@ -13,15 +13,7 @@ module Stew
 
       attr_reader :id
 
-      def self.create(data, opts={})
-        return self.new($1.to_i, opts) if data =~ /steamcommunity.com\/profiles\/([0-9]+)/
-        return self.new($1, opts) if data =~ /steamcommunity.com\/id\/([a-zA-Z0-9]+)/
-        return self.new(data, opts) if data.to_s.match /^[0-9A-Za-z]+$/
-        raise SteamIdNotFoundError
-      end
-
-      def initialize(steam_id,opts={})
-        @id = steam_id
+      def initialize(data,opts={})
         @client = opts[:client] || Stew.config[:default_community_client].new
       end
 

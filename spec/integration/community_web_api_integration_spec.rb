@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Community Access through the Web API", :vcr do
   describe "Creation of a steam profile with data" do
-    subject{Stew::Community::SteamId.create(76561197992917668)}
+    subject{Stew::Community::SteamId.new(76561197992917668)}
 
     describe "profile" do
       it "sets the nickname" do
@@ -25,7 +25,7 @@ describe "Community Access through the Web API", :vcr do
   end
 
   describe "Attempted creation of a non-existing Steam ID" do
-    subject{Stew::Community::SteamId.create("www.google.com/nisse")}
+    subject{Stew::Community::SteamId.new("www.google.com/nisse")}
 
     it "raises a Stew::XmlClient::ObjectNotFoundError" do
       expect{subject.profile.nickname}.to raise_error(Stew::Community::SteamIdNotFoundError)
