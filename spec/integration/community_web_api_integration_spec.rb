@@ -19,16 +19,14 @@ describe "Community Access through the Web API", :vcr do
 
     describe "friends" do
       it "creates friends" do
-        subject.friends.collect(&:id).include?(76561197972211787.to_s).should be_true
+        subject.friends.collect(&:id).include?(76561197972211787).should be_true
       end
     end
   end
 
   describe "Attempted creation of a non-existing Steam ID" do
-    subject{Stew::Community::SteamId.new("www.google.com/nisse")}
-
     it "raises a Stew::XmlClient::ObjectNotFoundError" do
-      expect{subject.profile.nickname}.to raise_error(Stew::Community::SteamIdNotFoundError)
+      expect{Stew::Community::SteamId.new("www.google.com/nisse")}.to raise_error(Stew::Community::SteamIdNotFoundError)
     end
   end
 end

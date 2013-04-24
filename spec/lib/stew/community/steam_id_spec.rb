@@ -4,15 +4,20 @@ describe "Stew::Community::SteamId" do
   let(:id){76561197992917668}
   let(:steam_id){12345}
   let(:client){double('client')}
+  let(:resolver){double}
 
   subject{Stew::Community::SteamId.new(id, client: client)}
 
   before :each do
-    
+    Stew::Community::SteamIdResolver.stub(:new).and_return(resolver)
+    resolver.stub(:steam_id) {id}
   end
 
   describe ".initialize" do
-
+    it "uses an instance of SteamIdResolver to get the id" do
+      resolver.should_receive(:steam_id).with(id).and_return(id)
+      subject.id.should eq id
+    end
   end
 
   describe ".profile" do

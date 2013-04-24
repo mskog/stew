@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Stew::Community::SteamIdResolver, :focus do
+describe Stew::Community::SteamIdResolver do
   let(:client){double}
   subject{Stew::Community::SteamIdResolver.new(client)}
 
@@ -73,9 +73,9 @@ describe Stew::Community::SteamIdResolver, :focus do
       let(:data){'foobar'}
       let(:expected_steam_id){12345}
 
-      it "returns nil" do
+      it "raises a Stew::Community::SteamIdNotFoundError" do
         client.should_receive(:vanity_url_to_steam_id).with(data).and_return(nil)
-        subject.steam_id(data).should be_nil
+        expect{subject.steam_id(data)}.to raise_error(Stew::Community::SteamIdNotFoundError)
       end
     end
   end

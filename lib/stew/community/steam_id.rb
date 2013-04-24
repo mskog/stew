@@ -15,6 +15,7 @@ module Stew
 
       def initialize(data,opts={})
         @client = opts[:client] || Stew.config[:default_community_client].new
+        @id = SteamIdResolver.new(@client).steam_id(data)
       end
 
       def profile
