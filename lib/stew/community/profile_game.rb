@@ -11,16 +11,16 @@ module Stew
 
       attr_reader :store_link
 
-      attr_reader :playertime_2weeks
+      attr_reader :playtime_2weeks
 
-      attr_reader :playertime_forever
+      attr_reader :playtime_forever
 
       def initialize(hash)
         @app_id = hash['appid'].to_i
         @name = hash['name']
         @logo = hash['logo']
-        @playertime_2weeks = hash['playtime_2weeks'].to_i
-        @playertime_forever = hash['playtime_forever'].to_i
+        @playtime_2weeks = hash['playtime_2weeks'].to_i
+        @playtime_forever = hash['playtime_forever'].to_i
         @img_logo_url = hash['img_logo_url']
         @img_icon_url = hash['img_icon_url']
       end

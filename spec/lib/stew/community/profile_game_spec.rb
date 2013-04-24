@@ -35,11 +35,11 @@ describe "Stew::Community::ProfileGame" do
     end
 
     it "sets the playertime_2weeks" do
-      @profile_game.playertime_2weeks.should eq 0
+      @profile_game.playtime_2weeks.should eq 0
     end
 
     it "sets the playertime_forever" do
-      @profile_game.playertime_forever.should eq 3173
+      @profile_game.playtime_forever.should eq 3173
     end
   end
 end
