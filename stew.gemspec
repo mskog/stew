@@ -17,6 +17,13 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
+  gem.add_runtime_dependency 'multi_xml'
+  gem.add_runtime_dependency 'nokogiri', '>= 1.5.0'
+  gem.add_runtime_dependency 'faraday', '>= 0.8.6'
+  gem.add_runtime_dependency 'faraday_middleware', '>= 0.9.0'
+  gem.add_runtime_dependency 'money', '>= 5.1.0'
+
+
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'guard'
   gem.add_development_dependency 'guard-rspec'
@@ -30,9 +37,4 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'yard'
   gem.add_development_dependency 'rdiscount'
 
-  gem.add_runtime_dependency 'multi_xml'
-  gem.add_runtime_dependency 'nokogiri'
-  gem.add_runtime_dependency 'faraday'
-  gem.add_runtime_dependency 'faraday_middleware'
-  gem.add_runtime_dependency 'money'
 end
