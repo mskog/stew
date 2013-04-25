@@ -12,12 +12,22 @@ module Stew
       def steam_id(data)
         data_string = data.to_s
         return data.to_i if /^[0-9]+$/ === data_string
-        steam_id = @client.vanity_url_to_steam_id(data) if !data.include?('profile') && (!data.include?('/') || data =~ /steamcommunity.com/)
-        return steam_id unless steam_id.nil?
 
-        matches = /steamcommunity.com\/profiles\/([0-9]+)/.match data_string
-        return matches[1].to_i if matches.nil? == false && matches.size == 2
+        matches = (/steamcommunity.com\/(id|profiles|)\/([a-z0-9]+)/i).match(data_string)
+        steam_id = steam_id_from_matches(data,matches)
+        return steam_id unless steam_id.nil?
         raise Stew::Community::SteamIdNotFoundError
+      end
+
+    private
+      def steam_id_from_matches(data, matches)
+        if matches.nil?
+          return @client.vanity_url_to_steam_id(data) unless data.include?('/')
+        elsif matches[1] != 'profiles'
+          return @client.vanity_url_to_steam_id(data)
+        else
+          return matches[2].to_i
+        end
       end
     end
   end
