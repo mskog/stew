@@ -6,35 +6,45 @@
 
 ##Important!
 
-**Steam has deprecated their old xml format api. The good news is that they have added the remaining functionality from it to their "real" web api so Stew can use that instead. Stew still works and I am currently working on updating it to use the web api instead. Functionality will probably remain the same but you will need an API key from Steam to use Stew**
+**Steam has deprecated their old xml format api. The good news is that they have added the remaining functionality from it to their "real" web api.
+From version 0.6.0, Stew no longer supports the old, deprecated, api. From this version you need a Steam Web API Key to use Stew**
 
 ##Information
 
-Stew can access both the Steam Community and the Steam Store. The Community library uses the Steam XML API and should be rather stable.
+Stew can access both the Steam Community and the Steam Store. The Community library uses the Steam Web API and should be rather stable.
 The Store library accesses the Store pages by parsing the HTML. This should be considered unstable and you have to be prepared for missing data in case the store pages change.
 
 ###Steam Community
 The Community part of the API is a work in progress and lacks a lot of the fields expected in for example a Profile.
 You can however still use it to retrieve the games for a profile and such.
 
+####Before Use
+You need to retrieve and set your Steam Web API key before using Stew. If you don't have one, then one can be found here: http://steamcommunity.com/dev/apikey
+
+Once you have a key, make Stew use it:
+
+```ruby
+Stew.configure(steam_api_key: YOURKEY)
+```
+
 ####Create a Steam ID
 ```ruby
-steam_id = Stew::Community::SteamId.create("http://steamcommunity.com/profiles/76561197992917668")
+steam_id = Stew::Community::SteamId.new("http://steamcommunity.com/profiles/76561197992917668")
 ```
 
 You can also use the 64 bit ids. This is equivalent to above:
 ```ruby
-steam_id = Stew::Community::SteamId.create(76561197992917668)
+steam_id = Stew::Community::SteamId.new(76561197992917668)
 ```
 
 Finally, you can use vanity names or URLs to create steam_ids like so:
 
 ```ruby
-steam_id = Stew::Community::SteamId.create("http://steamcommunity.com/id/eekon20")
+steam_id = Stew::Community::SteamId.new("http://steamcommunity.com/id/eekon20")
 ```
 or
 ```ruby
-steam_id = Stew::Community::SteamId.create("eekon20")
+steam_id = Stew::Community::SteamId.new("eekon20")
 ```
 
 Once you have created a Steam ID, you can use it to get information like the Profile, Games and Friends
@@ -104,6 +114,6 @@ app.free? #=> false :(
 More data is available for apps and app offers. See the code for the specific classes to find out.
 
 ## Contribute
-
+You will need a Steam Web API key to contribute to this project. The key is set in the spec/config.yml file. See the example
 Will gladly accept pull requests.
 
