@@ -34,28 +34,66 @@ describe "Stew::Community::WebApiClient" do
 
   describe ".profile" do
     let(:response){JSON.parse(IO.read("spec/fixtures/profiles/#{steam_id}.json"))}
-    it "sends the 'get' message to its client with the correct parameters" do
-      expected_argument = "/ISteamUser/GetPlayerSummaries/v0002/?key=#{STEAM_API_KEY}&steamids=#{steam_id}"
-      client.should_receive(:get).with(expected_argument).and_return(response)
-      subject.profile(steam_id)['steamid'].to_i.should eq steam_id
+
+    context "when given an existing steam id" do
+      let(:response){JSON.parse(IO.read("spec/fixtures/profiles/#{steam_id}.json"))}
+      it "sends the 'get' message to its client with the correct parameters" do
+        expected_argument = "/ISteamUser/GetPlayerSummaries/v0002/?key=#{STEAM_API_KEY}&steamids=#{steam_id}"
+        client.should_receive(:get).with(expected_argument).and_return(response)
+        subject.profile(steam_id)['steamid'].to_i.should eq steam_id
+      end
+    end
+
+    context "when given a non-existant steam id" do
+      let(:steam_id){4}
+
+      it "raises a ProfileNotFoundError" do
+        expected_argument = "/ISteamUser/GetPlayerSummaries/v0002/?key=#{STEAM_API_KEY}&steamids=#{steam_id}"
+        client.should_receive(:get).with(expected_argument).and_return(response)
+        expect{subject.profile(steam_id)}.to raise_error(Stew::Community::ProfileNotFoundError)
+      end
     end
   end
 
   describe ".profile_games" do
     let(:response){JSON.parse(IO.read("spec/fixtures/profiles/games/#{steam_id}.json"))}
-    it "sends the 'get' message to its client with the correct parameters" do
-      expected_argument = "/IPlayerService/GetOwnedGames/v0001/?key=#{STEAM_API_KEY}&steamid=#{steam_id}&include_appinfo=1"
-      client.should_receive(:get).with(expected_argument).and_return(response)
-      subject.profile_games(steam_id).count.should eq 106
+
+    context "when given an existing steam id" do
+      let(:response){JSON.parse(IO.read("spec/fixtures/profiles/games/#{steam_id}.json"))}
+      it "sends the 'get' message to its client with the correct parameters" do
+        expected_argument = "/IPlayerService/GetOwnedGames/v0001/?key=#{STEAM_API_KEY}&steamid=#{steam_id}&include_appinfo=1"
+        client.should_receive(:get).with(expected_argument).and_return(response)
+        subject.profile_games(steam_id).count.should eq 106
+      end
+    end
+
+    context "when given a non-existant steam id" do
+      let(:steam_id){4}
+
+      it "raises a ProfileNotFoundError" do
+        expected_argument = "/IPlayerService/GetOwnedGames/v0001/?key=#{STEAM_API_KEY}&steamid=#{steam_id}&include_appinfo=1"
+        client.should_receive(:get).with(expected_argument) {raise Stew::Community::WebClientError}
+        expect{subject.profile_games(steam_id)}.to raise_error(Stew::Community::ProfileNotFoundError)
+      end
     end
   end
 
   describe ".profile_friends" do
-    let(:response){JSON.parse(IO.read("spec/fixtures/profiles/friends/#{steam_id}.json"))}
-    it "sends the 'get' message to its client with the correct parameters" do
-      expected_argument = "/ISteamUser/GetFriendList/v0001/?key=#{STEAM_API_KEY}&steamid=#{steam_id}&relationship=friend"
-      client.should_receive(:get).with(expected_argument).and_return(response)
-      subject.profile_friends(steam_id).count.should eq 32
+    context "when given an existing steam id" do
+      let(:response){JSON.parse(IO.read("spec/fixtures/profiles/friends/#{steam_id}.json"))}
+      it "sends the 'get' message to its client with the correct parameters" do
+        expected_argument = "/ISteamUser/GetFriendList/v0001/?key=#{STEAM_API_KEY}&steamid=#{steam_id}&relationship=friend"
+        client.should_receive(:get).with(expected_argument).and_return(response)
+        subject.profile_friends(steam_id).count.should eq 32
+      end
+    end
+
+    context "when given a non-existant steam id" do
+      it "raises a ProfileNotFoundError" do
+        expected_argument = "/ISteamUser/GetFriendList/v0001/?key=#{STEAM_API_KEY}&steamid=#{steam_id}&relationship=friend"
+        client.should_receive(:get).with(expected_argument) {raise Stew::Community::WebClientError}
+        expect{subject.profile_friends(steam_id)}.to raise_error(Stew::Community::ProfileNotFoundError)
+      end
     end
   end
 end

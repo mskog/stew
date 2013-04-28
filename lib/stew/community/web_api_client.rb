@@ -14,16 +14,28 @@ module Stew
       end
 
       def profile(steam_id)
-        @client.get("/ISteamUser/GetPlayerSummaries/v0002/?key=#{@api_key}&steamids=#{steam_id}")['response']['players'].first
+        response = @client.get("/ISteamUser/GetPlayerSummaries/v0002/?key=#{@api_key}&steamids=#{steam_id}")['response']['players']
+        raise ProfileNotFoundError if response.empty?
+        response.first
       end
 
       def profile_games(steam_id)
-        @client.get("/IPlayerService/GetOwnedGames/v0001/?key=#{@api_key}&steamid=#{steam_id}&include_appinfo=1")['response']['games']
+        begin
+          @client.get("/IPlayerService/GetOwnedGames/v0001/?key=#{@api_key}&steamid=#{steam_id}&include_appinfo=1")['response']['games']
+        rescue Stew::Community::WebClientError
+          raise ProfileNotFoundError
+        end
       end
 
       def profile_friends(steam_id)
-        @client.get("/ISteamUser/GetFriendList/v0001/?key=#{@api_key}&steamid=#{steam_id}&relationship=friend")['friendslist']['friends']
+        begin
+          @client.get("/ISteamUser/GetFriendList/v0001/?key=#{@api_key}&steamid=#{steam_id}&relationship=friend")['friendslist']['friends']
+        rescue Stew::Community::WebClientError
+          raise ProfileNotFoundError
+        end
       end
     end
+
+    class ProfileNotFoundError < StandardError; end
   end
 end

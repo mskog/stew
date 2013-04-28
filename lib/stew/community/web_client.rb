@@ -6,7 +6,9 @@ module Stew
       end
 
       def get(uri)
-        request(uri).body
+        response = request(uri)
+        raise WebClientError if response.status == 500
+        response.body
       end
 
       private
@@ -25,5 +27,7 @@ module Stew
         end
       end
     end
+
+    class WebClientError < StandardError; end
   end
 end
