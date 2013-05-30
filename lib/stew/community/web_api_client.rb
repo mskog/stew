@@ -16,12 +16,15 @@ module Stew
       def profile(steam_id)
         response = @client.get("/ISteamUser/GetPlayerSummaries/v0002/?key=#{@api_key}&steamids=#{steam_id}")['response']['players']
         raise ProfileNotFoundError if response.empty?
+        raise PrivateProfileError if response.first['communityvisibilitystate'] == 1
         response.first
       end
 
       def profile_games(steam_id)
         begin
-          @client.get("/IPlayerService/GetOwnedGames/v0001/?key=#{@api_key}&steamid=#{steam_id}&include_appinfo=1")['response']['games']
+          response = @client.get("/IPlayerService/GetOwnedGames/v0001/?key=#{@api_key}&steamid=#{steam_id}&include_appinfo=1")
+          raise PrivateProfileError if response['response'].empty?
+          response['response']['games']
         rescue Stew::Community::WebClientError
           raise ProfileNotFoundError
         end
@@ -29,7 +32,9 @@ module Stew
 
       def profile_friends(steam_id)
         begin
-          @client.get("/ISteamUser/GetFriendList/v0001/?key=#{@api_key}&steamid=#{steam_id}&relationship=friend")['friendslist']['friends']
+          response = @client.get("/ISteamUser/GetFriendList/v0001/?key=#{@api_key}&steamid=#{steam_id}&relationship=friend")
+          raise PrivateProfileError if response.empty?
+          response['friendslist']['friends']
         rescue Stew::Community::WebClientError
           raise ProfileNotFoundError
         end
@@ -37,5 +42,7 @@ module Stew
     end
 
     class ProfileNotFoundError < StandardError; end
+
+    class PrivateProfileError < StandardError; end
   end
 end
