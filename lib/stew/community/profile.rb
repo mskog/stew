@@ -4,9 +4,7 @@ module Stew
     # Represents the base data for a Steam Profile
     class Profile
 
-      attr_reader :id
-
-      attr_reader :nickname
+      attr_reader :id, :nickname, :last_logoff
 
       def initialize(hash)
         set_data(hash)
@@ -17,6 +15,7 @@ module Stew
       def set_data(data)
         @id = data['steamid'].to_i
         @nickname = data['personaname']
+        @last_logoff = Time.at data['lastlogoff']
       end
     end
   end
