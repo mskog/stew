@@ -53,6 +53,16 @@ describe "Stew::Community::WebApiClient" do
         expect{subject.profile(steam_id)}.to raise_error(Stew::Community::ProfileNotFoundError)
       end
     end
+
+    context "when given a private steam id" do
+      let(:response){JSON.parse(IO.read("spec/fixtures/profiles/private.json"))}
+
+      it "raises a PrivateProfileError" do
+        expected_argument = "/ISteamUser/GetPlayerSummaries/v0002/?key=#{STEAM_API_KEY}&steamids=#{steam_id}"
+        client.should_receive(:get).with(expected_argument).and_return(response)
+        expect{subject.profile(steam_id)}.to raise_error(Stew::Community::PrivateProfileError)
+      end
+    end
   end
 
   describe ".profile_games" do
@@ -76,6 +86,17 @@ describe "Stew::Community::WebApiClient" do
         expect{subject.profile_games(steam_id)}.to raise_error(Stew::Community::ProfileNotFoundError)
       end
     end
+
+    context "when given a private steam id" do
+      let(:response){JSON.parse(IO.read("spec/fixtures/profiles/games/private.json"))}
+
+      it "raises a PrivateProfileError" do
+        expected_argument = "/IPlayerService/GetOwnedGames/v0001/?key=#{STEAM_API_KEY}&steamid=#{steam_id}&include_appinfo=1"
+        client.should_receive(:get).with(expected_argument).and_return(response)
+        expect{subject.profile_games(steam_id)}.to raise_error(Stew::Community::PrivateProfileError)
+      end
+    end
+
   end
 
   describe ".profile_friends" do
@@ -95,5 +116,16 @@ describe "Stew::Community::WebApiClient" do
         expect{subject.profile_friends(steam_id)}.to raise_error(Stew::Community::ProfileNotFoundError)
       end
     end
+
+    context "when given a private steam id" do
+      let(:response){JSON.parse(IO.read("spec/fixtures/profiles/friends/private.json"))}
+
+      it "raises a PrivateProfileError" do
+        expected_argument = "/ISteamUser/GetFriendList/v0001/?key=#{STEAM_API_KEY}&steamid=#{steam_id}&relationship=friend"
+        client.should_receive(:get).with(expected_argument).and_return(response)
+        expect{subject.profile_friends(steam_id)}.to raise_error(Stew::Community::PrivateProfileError)
+      end
+    end
+
   end
 end

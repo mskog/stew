@@ -33,5 +33,8 @@ module Stew
 
     # Error to be raised when no Steam id is found
     class SteamIdNotFoundError < StandardError; end
+
+    # Error to be raised when the Steam Id is private
+    class PrivateProfileError < StandardError; end
   end
 end

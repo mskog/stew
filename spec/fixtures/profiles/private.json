@@ -1,0 +1,20 @@
+{
+  "response": {
+    "players": [
+      {
+        "steamid": "76561197973308537",
+        "communityvisibilitystate": 1,
+        "profilestate": 1,
+        "personaname": "Pooper Scooper",
+        "lastlogoff": 1369602135,
+        "commentpermission": 2,
+        "profileurl": "http://steamcommunity.com/id/gamespazm/",
+        "avatar": "http://media.steampowered.com/steamcommunity/public/images/avatars/a0/a0a06160f2d22db02e8c34df564ee8e9afb74f22.jpg",
+        "avatarmedium": "http://media.steampowered.com/steamcommunity/public/images/avatars/a0/a0a06160f2d22db02e8c34df564ee8e9afb74f22_medium.jpg",
+        "avatarfull": "http://media.steampowered.com/steamcommunity/public/images/avatars/a0/a0a06160f2d22db02e8c34df564ee8e9afb74f22_full.jpg",
+        "personastate": 0
+      }
+    ]
+    
+  }
+}
