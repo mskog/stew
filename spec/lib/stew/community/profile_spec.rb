@@ -18,5 +18,17 @@ describe "Stew::Community::Profile" do
     it "sets the last_logoff" do
       subject.last_logoff.should eq Time.at 1366670468
     end
+
+    it "sets the small avatar" do
+      subject.avatar.small.should eq "http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd.jpg"
+    end
+
+    it "sets the medium avatar" do
+      subject.avatar.medium.should eq "http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd_medium.jpg"
+    end
+
+    it "sets the large avatar" do
+      subject.avatar.large.should eq "http://media.steampowered.com/steamcommunity/public/images/avatars/3f/3fa6fcddcca7825ee0a77f4f4b8f4e10543a13cd_full.jpg"
+    end
   end
 end
