@@ -11,6 +11,8 @@ From version 0.6.0, Stew no longer supports the old, deprecated, api. From this 
 
 ##Information
 
+This is used in production at http://www.gamemagus.com
+
 Stew can access both the Steam Community and the Steam Store. The Community library uses the Steam Web API and should be rather stable.
 The Store library accesses the Store pages by parsing the HTML. This should be considered unstable and you have to be prepared for missing data in case the store pages change.
 
