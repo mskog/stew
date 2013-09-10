@@ -11,12 +11,15 @@ require "stew/version"
 require 'stew/community/steam_id_resolver'
 require 'stew/community/web_client'
 require 'stew/community/web_api_client'
+require 'stew/community/web_api_client_no_key'
 require 'stew/community/steam_id'
 require 'stew/community/avatar'
 require 'stew/community/profile'
 require 'stew/community/profile_friends'
 require 'stew/community/profile_game'
 require 'stew/community/profile_games'
+
+require 'stew/community/user_stats'
 
 require 'stew/store/web_client'
 require 'stew/store/store_client'

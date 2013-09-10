@@ -126,6 +126,5 @@ describe "Stew::Community::WebApiClient" do
         expect{subject.profile_friends(steam_id)}.to raise_error(Stew::Community::PrivateProfileError)
       end
     end
-
   end
 end
